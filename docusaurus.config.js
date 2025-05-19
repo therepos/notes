@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'My Docusaurus Site',
-  tagline: 'Docs made simple',
+  title: 'Notes',
+  tagline: 'Quick Notes',
   url: 'https://therepos.github.io',
-  baseUrl: '/docusaurus/',
+  baseUrl: '/notes/',
   organizationName: 'therepos',
-  projectName: 'docusaurus',
+  projectName: 'notes',
   deploymentBranch: 'gh-pages',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
@@ -30,10 +30,10 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'My Docusaurus Site',
+      title: 'Notes',
       items: [
         {
-          href: 'https://github.com/therepos/docusaurus',
+          href: 'https://github.com/therepos/notes',
           label: 'GitHub',
           position: 'right',
         },

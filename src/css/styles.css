@@ -1,3 +1,15 @@
 .pagination-nav {
     display: none;
 }
+
+/* ======================================== 
+   Custom Text
+=========================================*/ 
+
+h7 {
+  color: #1a73e8;         
+  font-size: inherit;         
+  font-weight: normal;    
+  display: inline;        /* Inline, not block */
+  margin: 0;              /* Prevent spacing issues */
+}
