@@ -124,9 +124,3 @@ h7 {
   display: inline;
   margin: 0;
 }
-
-/* Fully hide the Redirect title during transition */
-[data-mdx-content='redirect'] {
-  background-color: #ffffff !important;
-  color: #ffffff !important;
-}
