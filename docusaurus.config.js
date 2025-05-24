@@ -22,29 +22,29 @@ export default {
   ],
 
   plugins: [
-  [
-    '@docusaurus/plugin-content-docs',
-    {
-      id: 'cisa',
-      path: 'docs-cisa',
-      routeBasePath: 'cisa',
-      sidebarPath: './sidebars-cisa.js',
-      sidebarCollapsible: true,
-      showLastUpdateTime: true,
-    },
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'cisa',
+        path: 'docs-cisa',
+        routeBasePath: 'cisa',
+        sidebarPath: require.resolve('./sidebars-cisa.js'),
+        sidebarCollapsible: true,
+        showLastUpdateTime: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'home',
+        path: 'docs-home',
+        routeBasePath: 'home',
+        sidebarPath: require.resolve('./sidebars-home.js'),
+        sidebarCollapsible: true,
+        showLastUpdateTime: true,
+      },
+    ],
   ],
-  [
-    '@docusaurus/plugin-content-docs',
-    {
-      id: 'home',
-      path: 'docs-home',
-      routeBasePath: 'home',
-      sidebarPath: './sidebars-home.js',
-      sidebarCollapsible: true,
-      showLastUpdateTime: true,
-    },
-  ],
-],
 
   themeConfig: {
     navbar: {
@@ -58,6 +58,3 @@ export default {
     },
   },
 };
-
-
-
