@@ -13,13 +13,13 @@ export default {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
-          path: 'docs',
-          routeBasePath: '/',
-          sidebarPath: './sidebars.js',
-          sidebarCollapsible: true,
-          showLastUpdateTime: true,
-        },
+        // docs: {
+        //   path: 'docs',
+        //   routeBasePath: '/',
+        //   sidebarPath: './sidebars.js',
+        //   sidebarCollapsible: true,
+        //   showLastUpdateTime: true,
+        // },
         blog: false,
         theme: {
           customCss: './src/css/styles.css',
@@ -27,6 +27,31 @@ export default {
       },
     ],
   ],
+
+  plugins: [
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'cisa',
+      path: 'docs-cisa',
+      routeBasePath: 'cisa',
+      sidebarPath: './sidebars-cisa.js',
+      sidebarCollapsible: true,
+      showLastUpdateTime: true,
+    },
+  ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'docs',
+      path: 'docs',
+      routeBasePath: 'docs',
+      sidebarPath: './sidebars-docs.js',
+      sidebarCollapsible: true,
+      showLastUpdateTime: true,
+    },
+  ],
+],
 
   themeConfig: {
     navbar: {
@@ -38,14 +63,7 @@ export default {
       ],
     },
   },
-
-  plugins: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        indexDocs: true,
-        indexPages: false,
-      },
-    ],
-  ],
 };
+
+
+
