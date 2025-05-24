@@ -18,7 +18,7 @@ export default {
         docs: {
           path: 'docs',
           routeBasePath: '/',
-          sidebarPath: resolve('./sidebars.js'),
+          sidebarPath: resolve('./sidebars.mjs'),
           sidebarCollapsible: true,
           showLastUpdateTime: true,
         },
