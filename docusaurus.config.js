@@ -18,7 +18,7 @@ export default {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
-          sidesidebarCollapsible: true,
+          sidebarCollapsible: true
         },
         blog: false,
         theme: {
