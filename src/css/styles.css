@@ -63,6 +63,13 @@ body,
   padding: 0 1.5rem;
 }
 
+.theme-last-updated {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
 .markdown h1 {
   font-size: 40px;
   line-height: 35px;
