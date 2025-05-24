@@ -1,5 +1,30 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Apply font */
+.markdown h1,
+.markdown h2,
+.markdown p {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ========================================
+   Global Layout
+======================================== */
+
 .pagination-nav {
-    display: none;
+  display: none;
 }
 
 .container {
@@ -7,47 +32,44 @@
   padding: 0;
 }
 
+/* ========================================
+   Markdown Content
+======================================== */
+
 .theme-doc-markdown p {
   text-align: justify;
 }
 
-/* ======================================== 
-   TOC
-=========================================*/ 
-
 .theme-doc-markdown {
-  padding: 0 1.5rem; /* Adjust as needed */
-}
-
-/* ======================================== 
-   Custom Text
-=========================================*/ 
-
-h7 {
-  color: #1a73e8;         
-  font-size: inherit;         
-  font-weight: normal;    
-  display: inline;        /* Inline, not block */
-  margin: 0;              /* Prevent spacing issues */
+  padding: 0 1.5rem;
 }
 
 .markdown h1 {
-  font-family: 'Inter', 'Open Sans', sans-serif;
   font-size: 28px;
   line-height: 35px;
   font-weight: 600;
 }
 
 .markdown h2 {
-  font-family: 'Inter', 'Open Sans', sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 600;
 }
 
 .markdown p {
-  font-family: 'Inter', 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
+}
+
+/* ========================================
+   Custom Inline Heading (h7)
+======================================== */
+
+h7 {
+  color: #1a73e8;
+  font-size: inherit;
+  font-weight: normal;
+  display: inline;
+  margin: 0;
 }
