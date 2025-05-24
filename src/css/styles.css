@@ -125,6 +125,8 @@ h7 {
   margin: 0;
 }
 
-.hide-title h1 {
-  display: none;
+/* Fully hide the Redirect title during transition */
+[data-mdx-content='redirect'] {
+  background-color: #ffffff !important;
+  color: #ffffff !important;
 }
