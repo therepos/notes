@@ -74,6 +74,13 @@
   font-weight: 400;
 }
 
+.markdown li {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
 /* ========================================
    Custom Inline Heading (h7)
 ======================================== */
