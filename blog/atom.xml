@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://therepos.github.io/notes/blog</id>
+    <title>Notes Blog</title>
+    <updated>2025-05-24T19:14:16.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://therepos.github.io/notes/blog"/>
+    <subtitle>Notes Blog</subtitle>
+    <icon>https://therepos.github.io/notes/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[welcome]]></title>
+        <id>https://therepos.github.io/notes/blog/welcome</id>
+        <link href="https://therepos.github.io/notes/blog/welcome"/>
+        <updated>2025-05-24T19:14:16.000Z</updated>
+    </entry>
+</feed>
