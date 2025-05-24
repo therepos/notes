@@ -65,8 +65,13 @@ body,
 
 .theme-last-updated {
   font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  color: #666; /* optional: softer tone */
+}
+
+.theme-last-updated strong {
   font-weight: 400;
 }
 
