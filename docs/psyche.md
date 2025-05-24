@@ -1,5 +1,5 @@
-# PSYCHE
-## I. INTRODUCTION
+# Psyche
+## I. Introduction
 Once upon a time, in a less scientific age than ours, astrology was a respected study, based on ancient and empirically compiled principles and used by the learned for greater insight not only into the future, but into the soul. With the coming of the Age of Enlightenment, and the increase in man's knowledge of the material universe, it seemed for a time that studies such as astrology, in company with other symbolic maps of the cosmos, had become anachronisms - pieces of superstitious nonsense which reflected a more ignorant and gullible era. But surprisingly, astrology, despite its detractors, has refused to go the way of the flat earth, the conjuring of demons, and the turning of lead into gold. It is alive and well, growing in popularity, and once again meriting the respect of intelligent minds - for it has been brought into the modern era through our increasing knowledge of psychology and of the inner nature of man. Subjected to many centuries of suppression and ridicule, astrology has outproven and outlasted its opponents, and eloquently demonstrates that it has something of great value to offer the modern individual seeking self-understanding.
 
 
