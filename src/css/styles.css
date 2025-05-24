@@ -11,6 +11,13 @@
   padding: 0 1.5rem; /* Adjust as needed */
 }
 
+.theme-doc-toc-desktop {
+  width: 300px; /* default is ~200px */
+}
+
+.theme-doc-toc-desktop .table-of-contents {
+  max-width: 100%; /* ensures it fills the space */
+}
 
 /* ======================================== 
    Custom Text
