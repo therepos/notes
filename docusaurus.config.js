@@ -2,7 +2,7 @@ export default {
   title: 'Notes',
   tagline: 'Quick Notes',
   url: 'https://therepos.github.io',
-  baseUrl: '/notes/',
+  baseUrl: '/home/',
   organizationName: 'therepos',
   projectName: 'notes',
   deploymentBranch: 'gh-pages',
