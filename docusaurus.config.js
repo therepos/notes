@@ -1,5 +1,3 @@
-import { resolve } from 'path';
-
 export default {
   title: 'Notes',
   tagline: 'Quick Notes',
@@ -13,18 +11,18 @@ export default {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
           path: 'docs',
           routeBasePath: '/',
-          sidebarPath: resolve('./sidebars.mjs'),
+          sidebarPath: './sidebars.js',
           sidebarCollapsible: true,
           showLastUpdateTime: true,
         },
         blog: false,
         theme: {
-          customCss: resolve('./src/css/styles.css'),
+          customCss: './src/css/styles.css',
         },
       },
     ],
