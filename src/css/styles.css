@@ -12,7 +12,7 @@
 }
 
 /* ========================================
-   Navbar / Sidebar
+   Sidebar
 ======================================== */
 
 .menu__link {
@@ -97,8 +97,8 @@ body,
 .table-of-contents li,
 .table-of-contents a {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 13px;
+  line-height: 21px;
   font-weight: 400;
 }
 

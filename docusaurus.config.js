@@ -33,8 +33,8 @@ export default {
       title: 'Docs',
       items: [
         {
-          to: '/cisa/',
-          label: 'CISA',
+          to: '/',
+          label: 'Home',
           position: 'left',
         },
         {
@@ -45,5 +45,4 @@ export default {
       ],
     },
   },
-
 };
