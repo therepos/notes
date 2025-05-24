@@ -1,4 +1,6 @@
-module.exports = {
+import { resolve } from 'path';
+
+export default {
   title: 'Notes',
   tagline: 'Quick Notes',
   url: 'https://therepos.github.io',
@@ -16,13 +18,13 @@ module.exports = {
         docs: {
           path: 'docs',
           routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: resolve('./sidebars.js'),
           sidebarCollapsible: true,
           showLastUpdateTime: true,
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/styles.css'),
+          customCss: resolve('./src/css/styles.css'),
         },
       },
     ],
@@ -42,6 +44,11 @@ module.exports = {
     footer: {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} therepos.`,
+    },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
     },
   },
 };
