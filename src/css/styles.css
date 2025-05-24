@@ -124,3 +124,7 @@ h7 {
   display: inline;
   margin: 0;
 }
+
+.hide-title h1 {
+  display: none;
+}
