@@ -13,13 +13,6 @@ export default {
     [
       '@docusaurus/preset-classic',
       {
-        // docs: {
-        //   path: 'docs',
-        //   routeBasePath: '/',
-        //   sidebarPath: './sidebars.js',
-        //   sidebarCollapsible: true,
-        //   showLastUpdateTime: true,
-        // },
         blog: false,
         theme: {
           customCss: './src/css/styles.css',
@@ -43,10 +36,10 @@ export default {
   [
     '@docusaurus/plugin-content-docs',
     {
-      id: 'docs',
-      path: 'docs',
-      routeBasePath: 'docs',
-      sidebarPath: './sidebars-docs.js',
+      id: 'home',
+      path: 'docs-home',
+      routeBasePath: 'home',
+      sidebarPath: './sidebars-home.js',
       sidebarCollapsible: true,
       showLastUpdateTime: true,
     },
@@ -57,7 +50,8 @@ export default {
     navbar: {
       title: 'Docs',
       items: [
-        { to: '/', label: 'Home', position: 'left' },
+        { to: '/home/', label: 'Home', position: 'left' },
+        { to: '/cisa/', label: 'CISA', position: 'left' },
         { type: 'search', position: 'right' },
         { href: 'https://github.com/your/repo', label: 'GitHub', position: 'right' },
       ],
