@@ -1,3 +1,30 @@
+/* ========================================
+   Layout
+======================================== */
+
+.pagination-nav {
+  display: none;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+
+/* ========================================
+   Navbar / Sidebar
+======================================== */
+
+.menu__link {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+/* ========================================
+   Global Typography
+======================================== */
+
 @font-face {
   font-family: 'Inter';
   src: url('/fonts/inter.ttf') format('truetype');
@@ -12,31 +39,16 @@
   font-style: italic;
 }
 
-/* Apply font */
+body,
 .markdown h1,
 .markdown h2,
-.markdown p {
-  font-family: 'Inter', sans-serif;
-}
-
+.markdown h3,
+.markdown p,
+.markdown li,
+.table-of-contents li,
+.table-of-contents a,
 .menu__link {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
-}
-
-/* ========================================
-   Global Layout
-======================================== */
-
-.pagination-nav {
-  display: none;
-}
-
-.container {
-  max-width: 100%;
-  padding: 0;
 }
 
 /* ========================================
@@ -68,6 +80,7 @@
   line-height: 30px;
   font-weight: 600;
 }
+
 .markdown p {
   font-size: 16px;
   line-height: 26px;
@@ -75,6 +88,14 @@
 }
 
 .markdown li {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.table-of-contents li,
+.table-of-contents a {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 26px;
