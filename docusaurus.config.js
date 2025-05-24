@@ -67,18 +67,4 @@ export default {
     },
   },
 
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            to: '/home/',
-            from: ['/'],
-          },
-        ],
-      },
-    ],
-  ],
-
 };
