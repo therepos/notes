@@ -7,16 +7,17 @@
   padding: 0;
 }
 
+/* ======================================== 
+   TOC
+=========================================*/ 
+
 .theme-doc-markdown {
   padding: 0 1.5rem; /* Adjust as needed */
 }
 
 .theme-doc-toc-desktop {
-  width: 300px; /* default is ~200px */
-}
-
-.theme-doc-toc-desktop .table-of-contents {
-  max-width: 100%; /* ensures it fills the space */
+  max-height: 80vh; /* Adjust height */
+  overflow-y: auto;
 }
 
 /* ======================================== 
