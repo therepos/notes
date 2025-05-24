@@ -20,7 +20,12 @@ export default {
           showLastUpdateTime: true,
           sidebarCollapsible: true,
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          blogTitle: 'Blog',
+          blogDescription: 'Thoughts, updates, and notes.',
+          routeBasePath: 'blog', // will be available at /notes/blog/
+        },
         theme: {
           customCss: require.resolve('./src/css/styles.css'),
         },
@@ -52,6 +57,11 @@ export default {
           href: 'https://github.com/your/repo',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
         },
       ],
     },
