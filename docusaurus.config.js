@@ -30,23 +30,20 @@ export default {
 
   themeConfig: {
     navbar: {
-      title: 'Notes',
+      title: 'Docs',
       items: [
         {
-          href: 'https://github.com/therepos/notes',
+          to: '/cisa/',
+          label: 'CISA',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/your/repo',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} therepos.`,
-    },
-    docs: {
-      sidebar: {
-        autoCollapseCategories: true,
-      },
-    },
   },
+
 };
