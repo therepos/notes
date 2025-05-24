@@ -11,7 +11,3 @@ hide_table_of_contents: true
 </style>
 
 <meta http-equiv="refresh" content="0; url=/notes/home/" />
-
-<script>
-  window.location.href = "/notes/home/";
-</script>
