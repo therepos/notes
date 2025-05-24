@@ -16,8 +16,22 @@
 }
 
 .theme-doc-toc-desktop {
-  max-height: 30vh; /* Adjust height */
+  max-height: 100vh;
   overflow-y: auto;
+}
+
+.theme-doc-toc-desktop::-webkit-scrollbar {
+  width: 6px;
+}
+
+.theme-doc-toc-desktop::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.theme-doc-toc-desktop {
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
 }
 
 /* ======================================== 
