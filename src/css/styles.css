@@ -45,19 +45,19 @@
 }
 
 .markdown h1 {
-  font-size: 28px;
+  font-size: 40px;
   line-height: 35px;
   font-weight: 600;
 }
 
 .markdown h2 {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 30px;
   font-weight: 600;
 }
 
 .markdown p {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 26px;
   font-weight: 400;
 }
