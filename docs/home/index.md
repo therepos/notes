@@ -1,7 +1,3 @@
----
-title: Home
----
-
 # About
 
 ## Cooking Times
