@@ -72,6 +72,7 @@ body,
 }
 
 .theme-last-updated strong {
+  font-style: normal;
   font-weight: 400;
 }
 
