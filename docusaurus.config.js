@@ -32,11 +32,7 @@ export default {
     navbar: {
       title: 'Docs',
       items: [
-        {
-          to: '/',
-          label: 'Home',
-          position: 'left',
-        },
+        { to: '/', label: 'Home', position: 'left' },
         {
           href: 'https://github.com/your/repo',
           label: 'GitHub',
