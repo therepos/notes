@@ -13,6 +13,13 @@ export default {
     [
       '@docusaurus/preset-classic',
       {
+        docs: {
+          path: 'docs',
+          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateTime: true,
+          sidesidebarCollapsible: true,
+        },
         blog: false,
         theme: {
           customCss: './src/css/styles.css',
@@ -21,41 +28,28 @@ export default {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'cisa',
-        path: 'docs-cisa',
-        routeBasePath: 'cisa',
-        sidebarPath: require.resolve('./sidebars-cisa.js'),
-        sidebarCollapsible: true,
-        showLastUpdateTime: true,
-        disableVersioning: true,
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'home',
-        path: 'docs-home',
-        routeBasePath: 'home',
-        sidebarPath: require.resolve('./sidebars-home.js'),
-        sidebarCollapsible: true,
-        showLastUpdateTime: true,
-        disableVersioning: true,
-      },
-    ],
-  ],
-
   themeConfig: {
     navbar: {
       title: 'Docs',
       items: [
-        { to: '/home/', label: 'Home', position: 'left' },
-        { to: '/cisa/', label: 'CISA', position: 'left' },
+        {
+          type: 'docSidebar',
+          sidebarId: 'homeSidebar',
+          position: 'left',
+          label: 'Home',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cisaSidebar',
+          position: 'left',
+          label: 'CISA',
+        },
         { type: 'search', position: 'right' },
-        { href: 'https://github.com/your/repo', label: 'GitHub', position: 'right' },
+        {
+          href: 'https://github.com/your/repo',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
   },
