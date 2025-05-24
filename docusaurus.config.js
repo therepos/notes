@@ -33,12 +33,19 @@ export default {
       title: 'Docs',
       items: [
         { to: '/', label: 'Home', position: 'left' },
-        {
-          href: 'https://github.com/your/repo',
-          label: 'GitHub',
-          position: 'right',
-        },
+        { type: 'search', position: 'right' },
+        { href: 'https://github.com/your/repo', label: 'GitHub', position: 'right' },
       ],
     },
   },
+
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexDocs: true,
+        indexPages: false,
+      },
+    ],
+  ],
 };
