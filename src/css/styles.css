@@ -16,7 +16,7 @@
 }
 
 .theme-doc-toc-desktop {
-  max-height: 80vh; /* Adjust height */
+  max-height: 30vh; /* Adjust height */
   overflow-y: auto;
 }
 
