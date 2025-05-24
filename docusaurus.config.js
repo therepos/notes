@@ -31,6 +31,7 @@ export default {
         sidebarPath: require.resolve('./sidebars-cisa.js'),
         sidebarCollapsible: true,
         showLastUpdateTime: true,
+        disableVersioning: true,
       },
     ],
     [
@@ -42,6 +43,7 @@ export default {
         sidebarPath: require.resolve('./sidebars-home.js'),
         sidebarCollapsible: true,
         showLastUpdateTime: true,
+        disableVersioning: true,
       },
     ],
   ],
