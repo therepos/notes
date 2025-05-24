@@ -15,23 +15,15 @@
   padding: 0 1.5rem; /* Adjust as needed */
 }
 
-.theme-doc-toc-desktop {
-  max-height: 100vh;
-  overflow-y: auto;
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
 }
 
-.theme-doc-toc-desktop::-webkit-scrollbar {
-  width: 6px;
-}
-
-.theme-doc-toc-desktop::-webkit-scrollbar-thumb {
-  background-color: #888;
+::-webkit-scrollbar-thumb {
   border-radius: 4px;
-}
-
-.theme-doc-toc-desktop {
-  scrollbar-width: thin;
-  scrollbar-color: #888 transparent;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
 
 /* ======================================== 
