@@ -2,7 +2,7 @@ export default {
   title: 'Notes',
   tagline: 'Quick Notes',
   url: 'https://therepos.github.io',
-  baseUrl: '/home/',
+  baseUrl: '/notes/',
   organizationName: 'therepos',
   projectName: 'notes',
   deploymentBranch: 'gh-pages',
@@ -18,11 +18,11 @@ export default {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
-          sidebarCollapsible: true
+          sidebarCollapsible: true,
         },
         blog: false,
         theme: {
-          customCss: './src/css/styles.css',
+          customCss: require.resolve('./src/css/styles.css'),
         },
       },
     ],
@@ -44,7 +44,10 @@ export default {
           position: 'left',
           label: 'CISA',
         },
-        { type: 'search', position: 'right' },
+        {
+          type: 'search',
+          position: 'right',
+        },
         {
           href: 'https://github.com/your/repo',
           label: 'GitHub',
