@@ -4,8 +4,13 @@
 
 .container {
   max-width: 100%;
-  padding: 10%;
+  padding: 0;
 }
+
+.theme-doc-markdown {
+  padding: 0 1.5rem; /* Adjust as needed */
+}
+
 
 /* ======================================== 
    Custom Text
