@@ -2,6 +2,13 @@
     display: none;
 }
 
+.main-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100% !important;
+  width: 100%;
+}
+
 /* ======================================== 
    Custom Text
 =========================================*/ 
