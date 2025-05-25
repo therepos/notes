@@ -26,6 +26,8 @@ export default {
           blogTitle: 'Blog',
           blogDescription: 'Thoughts, updates, and notes.',
           routeBasePath: 'blog',
+          blogSidebarTitle: 'Events',
+          blogSidebarCount: 'ALL',
           editUrl: 'https://github.com/therepos/notes/blog',
         },
         theme: {
