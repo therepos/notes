@@ -19,14 +19,14 @@ export default {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/notes/edit/main/docs/',
+          editUrl: 'https://github.com/therepos/notes',
         },
         blog: {
           showReadingTime: true,
           blogTitle: 'Blog',
           blogDescription: 'Thoughts, updates, and notes.',
           routeBasePath: 'blog',
-          editUrl: 'https://github.com/therepos/notes/edit/main/blog/',
+          editUrl: 'https://github.com/therepos/notes',
         },
         theme: {
           customCss: require.resolve('./src/css/styles.css'),
