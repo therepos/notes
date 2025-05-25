@@ -12,27 +12,27 @@
 }
 
 /* ========================================
-   Landing Page
+   Landing Page Overrides (match JSX)
 ======================================== */
 
-.main {
+.landing-main {
   padding: 2rem;
   text-align: center;
 }
 
-.title {
+.landing-title {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
-.cardGrid {
+.landing-card-grid {
   display: flex;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
-.card {
+.landing-card {
   border: 1px solid #ccc;
   padding: 1.5rem;
   border-radius: 8px;
@@ -43,16 +43,16 @@
   background-color: #f9f9f9;
 }
 
-.card:hover {
+.landing-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
-.card h2 {
+.landing-card h2 {
   margin: 0 0 0.5rem;
 }
 
-.card p {
+.landing-card p {
   margin: 0;
   color: #555;
 }
