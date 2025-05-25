@@ -16,7 +16,7 @@ export default {
         docs: {
           path: 'docs',
           routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
           editUrl: 'https://github.com/therepos/notes',
@@ -29,7 +29,7 @@ export default {
           editUrl: 'https://github.com/therepos/notes',
         },
         theme: {
-          customCss: require.resolve('./src/css/styles.css'),
+          customCss: './src/css/styles.css',
         },
       },
     ],
