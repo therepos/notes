@@ -62,9 +62,11 @@
 ======================================== */
 
 .menu__link {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: 500;
+  white-space: normal !important;
+  word-break: break-word; /* optional: breaks long tokens like underscores */
 }
 
 /* ========================================
