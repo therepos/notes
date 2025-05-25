@@ -19,14 +19,14 @@ export default {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/notes',
+          editUrl: 'https://github.com/therepos/notes/docs',
         },
         blog: {
           showReadingTime: true,
           blogTitle: 'Blog',
           blogDescription: 'Thoughts, updates, and notes.',
           routeBasePath: 'blog',
-          editUrl: 'https://github.com/therepos/notes',
+          editUrl: 'https://github.com/therepos/notes/blog',
         },
         theme: {
           customCss: './src/css/styles.css',

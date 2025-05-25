@@ -159,12 +159,6 @@ body,
   font-weight: 400;
 }
 
-/* Blog post */
-.theme-blog-post-page .markdown,
-.theme-blog-list-page .markdown {
-  font-family: 'Inter', sans-serif !important;
-}
-
 /* ========================================
    Custom Inline Heading (h7)
 ======================================== */
@@ -175,4 +169,37 @@ h7 {
   font-weight: normal;
   display: inline;
   margin: 0;
+}
+
+/* ========================================
+   Blog Pages
+======================================== */
+
+.theme-blog-post-page .markdown,
+.theme-blog-list-page .markdown {
+  font-family: 'Inter', sans-serif;
+}
+
+.theme-blog-post-page .markdown h1,
+.theme-blog-post-page .markdown h2,
+.theme-blog-post-page .markdown h3,
+.theme-blog-post-page .markdown p,
+.theme-blog-post-page .markdown li {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.theme-blog-post-page .markdown h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.theme-blog-post-page .markdown h2,
+.theme-blog-post-page .markdown h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
