@@ -6,7 +6,7 @@ export default function RedirectHome() {
   const history = useHistory();
 
   useEffect(() => {
-    history.replace('/home');
+    history.replace('/notes/home');
   }, [history]);
 
   return null;
