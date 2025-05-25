@@ -1,17 +1,22 @@
-
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from '@docusaurus/router';
+import Layout from '@theme/Layout';
 
 export default function RedirectHome() {
   const history = useHistory();
 
   useEffect(() => {
-    history.replace('/notes/home');
+    history.replace('/home');
   }, [history]);
 
-  return null;
+  return (
+    <Layout title="Redirecting...">
+      <main>
+        <p>Redirecting...</p>
+      </main>
+    </Layout>
+  );
 }
-
 
 // import React from 'react';
 // import Layout from '@theme/Layout';
