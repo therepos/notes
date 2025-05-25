@@ -175,8 +175,14 @@ h7 {
    Blog Pages
 ======================================== */
 
+/* Force font on blog page heading */
 .theme-blog-post-page header h1 {
   font-family: 'Inter', sans-serif !important;
   font-size: 40px;
   font-weight: 600;
+}
+
+/* Apply font to rest of blog content */
+.theme-blog-post-page .markdown * {
+  font-family: 'Inter', sans-serif !important;
 }
