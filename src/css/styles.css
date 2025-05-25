@@ -184,5 +184,5 @@ h7 {
 
 /* Apply font to rest of blog content */
 .theme-blog-post-page .markdown * {
-  font-family: 'Inter', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
