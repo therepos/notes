@@ -175,14 +175,23 @@ h7 {
    Blog Pages
 ======================================== */
 
-/* Force font on blog page heading */
-.theme-blog-post-page header h1 {
+/* Blog list page title */
+h1.title_f1Hy {
   font-family: 'Inter', sans-serif !important;
   font-size: 40px;
   font-weight: 600;
 }
 
-/* Apply font to rest of blog content */
-.theme-blog-post-page .markdown * {
-  font-family: 'Roboto', sans-serif !important;
+/* Blog post title inside article */
+article header h2.title_f1Hy a {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Blog post content */
+article .markdown * {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 16px;
+  line-height: 26px;
 }
