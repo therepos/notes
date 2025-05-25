@@ -1,5 +1,4 @@
 ---
-id: intro
+id: index
 title: intro
-slug: /
 ---
