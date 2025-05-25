@@ -9,6 +9,17 @@ export default {
   favicon: 'img/favicon.ico',
   trailingSlash: false,
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          { from: '/', to: '/home' },
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
