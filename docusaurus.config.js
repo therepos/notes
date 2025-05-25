@@ -8,17 +8,7 @@ export default {
   deploymentBranch: 'gh-pages',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
-
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          { from: '/', to: '/home' },
-        ],
-      },
-    ],
-  ],
+  homePagePath: 'docs/home',
 
   presets: [
     [

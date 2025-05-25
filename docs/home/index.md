@@ -1,6 +1,7 @@
 ---
-id: home
-title: Home
+id: index
+title: home
+sidebar_label: home
 ---
 
 # About

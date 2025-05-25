@@ -1,5 +1,7 @@
 ---
-title: CISA
+id: index
+title: cisa
+sidebar_label: cisa
 ---
 
 # CISA
