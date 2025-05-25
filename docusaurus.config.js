@@ -19,7 +19,7 @@ export default {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/notes/docs',
+          editUrl: 'https://github.com/therepos/notes/edit/main/docs/home/index.md',
         },
         blog: {
           showReadingTime: true,
@@ -28,7 +28,7 @@ export default {
           routeBasePath: 'blog',
           blogSidebarTitle: 'Events',
           blogSidebarCount: 'ALL',
-          editUrl: 'https://github.com/therepos/notes/blog',
+          editUrl: 'https://github.com/therepos/notes/edit/main/blog/2025-05-26-blog.md',
         },
         theme: {
           customCss: './src/css/styles.css',
