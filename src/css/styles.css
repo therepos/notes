@@ -195,6 +195,14 @@ h2.title_f1Hy {
   font-weight: 600;
 }
 
+h2.title_f1Hy a {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
 h3.title_f1Hy {
   font-family: 'Inter', sans-serif !important;
   font-size: 28px;
@@ -207,9 +215,60 @@ h3.title_f1Hy {
   font-weight: 600;
 }
 
-/* Add left border to the main blog content area */
-.theme-blog-list-page main,
-.theme-blog-post-page main {
-  border-left: 1px solid #e0e0e0; /* same light grey as docs */
-  padding-left: 1.5rem;           /* add some space after the border */
+/* Mobile Layout */
+
+@media (max-width: 768px) {
+  .authorCol_Hf19 {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .authorSocials_rSDt {
+    margin-top: 0.5rem;
+  }
 }
+
+@media (max-width: 996px) {
+  .theme-blog-list-page main,
+  .theme-blog-post-page main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Tags */
+
+.tags_jXut {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tag_zVej {
+  font-size: 0.85rem;
+  padding: 0.25em 0.75em;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Read More */
+
+@media (max-width: 768px) {
+  .docusaurus-mt-lg .text--right {
+    text-align: left;
+    margin-top: 1rem;
+  }
+}
+
+/* Fonts */
+
+.theme-blog-post-page article * {
+  font-family: 'Inter', sans-serif !important;
+}
+
+
+
