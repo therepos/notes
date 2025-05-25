@@ -8,7 +8,6 @@ export default {
   deploymentBranch: 'gh-pages',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
-  homePagePath: 'docs/home',
 
   presets: [
     [
@@ -17,6 +16,7 @@ export default {
         docs: {
           path: 'docs',
           routeBasePath: '/',
+          homePagePath: 'docs/home',
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
