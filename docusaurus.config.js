@@ -9,6 +9,20 @@ export default {
   favicon: 'img/favicon.ico',
   trailingSlash: false,
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/',
+            to: '/home',
+          },
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -25,7 +39,7 @@ export default {
           showReadingTime: true,
           blogTitle: 'Blog',
           blogDescription: 'Thoughts, updates, and notes.',
-          routeBasePath: 'blog', 
+          routeBasePath: 'blog',
           editUrl: 'https://github.com/therepos/notes/edit/main/blog/',
         },
         theme: {

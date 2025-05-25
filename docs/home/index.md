@@ -1,3 +1,9 @@
+---
+id: index
+title: Home
+slug: /
+---
+
 # About
 
 ## Cooking Times
