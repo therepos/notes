@@ -1,38 +1,24 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import DocCard from '@theme/DocCard';
-
-const docCards = [
-  {
-    type: 'link',
-    label: 'Home',
-    href: '/notes/docs/home', // Adjust path if routeBasePath is 'docs'
-    description: 'Overview and essentials.',
-  },
-  {
-    type: 'link',
-    label: 'CISA',
-    href: '/notes/docs/cisa',
-    description: 'CISA learning and exam notes.',
-  },
-  {
-    type: 'link',
-    label: 'Blog',
-    href: '/notes/blog',
-    description: 'Thoughts, updates, and more.',
-  },
-];
+import Link from '@docusaurus/Link';
 
 export default function Home() {
   return (
-    <Layout title="Welcome" description="Landing page with quick links">
+    <Layout title="Welcome" description="Landing page with links">
       <main className="homepage-container">
         <div className="row">
-          {docCards.map((item, idx) => (
-            <div key={idx} className="col col--4 margin-bottom--lg">
-              <DocCard item={item} />
-            </div>
-          ))}
+          <div className="col col--4">
+            <h3><Link to="/docs/home">Home</Link></h3>
+            <p>Overview and essentials.</p>
+          </div>
+          <div className="col col--4">
+            <h3><Link to="/docs/cisa">CISA</Link></h3>
+            <p>CISA learning and exam notes.</p>
+          </div>
+          <div className="col col--4">
+            <h3><Link to="/blog">Blog</Link></h3>
+            <p>Thoughts, updates, and more.</p>
+          </div>
         </div>
       </main>
     </Layout>
