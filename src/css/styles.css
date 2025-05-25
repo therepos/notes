@@ -117,6 +117,7 @@ body,
   color: #666; /* optional: softer tone */
 }
 
+h1.title_f1Hy,
 .markdown h1 {
   font-size: 40px;
   line-height: 35px;
@@ -175,23 +176,9 @@ h7 {
    Blog Pages
 ======================================== */
 
-/* Blog list page title */
-h1.title_f1Hy {
-  font-family: 'Inter', sans-serif !important;
-  font-size: 40px;
-  font-weight: 600;
-}
-
 /* Blog post title inside article */
 article header h2.title_f1Hy a {
   font-family: 'Inter', sans-serif !important;
   font-size: 32px;
   font-weight: 600;
-}
-
-/* Blog post content */
-article .markdown * {
-  font-family: 'Inter', sans-serif !important;
-  font-size: 16px;
-  line-height: 26px;
 }
