@@ -1,7 +1,6 @@
 ---
-id: index
+id: home
 title: Home
-slug: /
 ---
 
 # About
