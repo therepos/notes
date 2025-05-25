@@ -80,7 +80,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/inter-italic.ttf') format('truetype');
+  src: url('/fonts/interitalic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
