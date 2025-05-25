@@ -175,37 +175,8 @@ h7 {
    Blog Pages
 ======================================== */
 
-.theme-blog-post-page .markdown,
-.theme-blog-list-page .markdown {
-  font-family: 'Inter', sans-serif;
-}
-
-.theme-blog-post-page .markdown p,
-.theme-blog-post-page .markdown li {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-}
-
-.theme-blog-post-page article h1 {
+.theme-blog-post-page header h1 {
   font-family: 'Inter', sans-serif !important;
   font-size: 40px;
-  line-height: 35px;
   font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-
-.theme-blog-post-page .markdown h2 {
-  font-size: 28px;
-  line-height: 30px;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.theme-blog-post-page .markdown h3 {
-  font-size: 28px;
-  line-height: 30px;
-  font-weight: 600;
-  margin-bottom: 1rem;
 }
