@@ -204,3 +204,10 @@ h3.title_f1Hy {
   font-size: 20px;
   font-weight: 500;
 }
+
+/* Add left border to the main blog content area */
+.theme-blog-list-page main,
+.theme-blog-post-page main {
+  border-left: 1px solid #e0e0e0; /* same light grey as docs */
+  padding-left: 1.5rem;           /* add some space after the border */
+}
