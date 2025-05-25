@@ -11,6 +11,11 @@
   padding: 0;
 }
 
+/* Landing page */
+.homepage-container {
+  padding-top: 2rem;
+}
+
 /* ========================================
    Sidebar
 ======================================== */

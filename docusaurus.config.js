@@ -19,12 +19,14 @@ export default {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
           sidebarCollapsible: true,
+          editUrl: 'https://github.com/therepos/notes/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           blogTitle: 'Blog',
           blogDescription: 'Thoughts, updates, and notes.',
-          routeBasePath: 'blog', // will be available at /notes/blog/
+          routeBasePath: 'blog', 
+          editUrl: 'https://github.com/therepos/notes/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/styles.css'),
@@ -54,7 +56,7 @@ export default {
           position: 'right',
         },
         {
-          href: 'https://github.com/your/repo',
+          href: 'https://github.com/therepos/notes',
           label: 'GitHub',
           position: 'right',
         },
