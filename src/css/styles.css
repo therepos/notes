@@ -98,7 +98,7 @@ body,
 }
 
 /* ========================================
-   Markdown Content
+   Theme
 ======================================== */
 
 .theme-doc-markdown p {
@@ -116,6 +116,14 @@ body,
   font-style: normal;
   color: #666; /* optional: softer tone */
 }
+
+.theme-edit-this-page {
+  margin-left: 1.5rem;
+}
+
+/* ========================================
+   Markdown Content
+======================================== */
 
 .markdown h1 {
   font-size: 40px;
@@ -151,6 +159,10 @@ body,
   font-weight: 400;
 }
 
+/* ========================================
+   Table of Contents
+======================================== */
+
 .table-of-contents li,
 .table-of-contents a {
   font-family: 'Inter', sans-serif;
@@ -174,3 +186,9 @@ h7 {
 /* ========================================
    Blog Pages
 ======================================== */
+
+h1.title_f1Hy {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 40px;
+  font-weight: 600;
+}
