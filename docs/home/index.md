@@ -1,6 +1,6 @@
 ---
 id: index
-title: home
+title: index
 sidebar_label: home
 ---
 

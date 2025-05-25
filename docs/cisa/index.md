@@ -1,6 +1,6 @@
 ---
 id: index
-title: cisa
+title: index
 sidebar_label: cisa
 ---
 
