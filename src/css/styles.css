@@ -215,16 +215,35 @@ h3.title_f1Hy {
   font-weight: 600;
 }
 
-/* Mobile Layout */
+/* ========================================
+   Mobile Layout Fixes for Blog Pages
+======================================== */
 
+/* Blog list page title styling */
 .blog-list-page .title_f1Hy {
   font-family: 'Inter', sans-serif;
   font-size: 2rem;
 }
 
+/* Add padding to blog list content */
 .blog-list-page main {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+/* Mobile adjustments for blog post pages */
+@media (max-width: 996px) {
+  /* Reset default padding */
+  .blog-post-page main,
+  .blog-post-page article {
+    padding: 0;
+  }
+
+  /* Add horizontal padding to blog content */
+  .blog-post-page .markdown {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /* Tags */
