@@ -217,24 +217,14 @@ h3.title_f1Hy {
 
 /* Mobile Layout */
 
-@media (max-width: 768px) {
-  .authorCol_Hf19 {
-    flex: 1 1 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .authorSocials_rSDt {
-    margin-top: 0.5rem;
-  }
+.blog-list-page .title_f1Hy {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
 }
 
-@media (max-width: 996px) {
-  .theme-blog-list-page main,
-  .theme-blog-post-page main {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+.blog-list-page main {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 /* Tags */
