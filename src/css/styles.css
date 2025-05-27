@@ -70,7 +70,7 @@
 }
 
 /* ========================================
-   Global Typography
+   Typography
 ======================================== */
 
 @font-face {
@@ -124,7 +124,7 @@ body,
 }
 
 /* ========================================
-   Markdown Content
+   Markdown
 ======================================== */
 
 .markdown h1 {
@@ -174,18 +174,6 @@ body,
 }
 
 /* ========================================
-   Custom Inline Heading (h7)
-======================================== */
-
-h7 {
-  color: #1a73e8;
-  font-size: inherit;
-  font-weight: normal;
-  display: inline;
-  margin: 0;
-}
-
-/* ========================================
    Blog Pages
 ======================================== */
 
@@ -231,3 +219,14 @@ html.blog-wrapper .container {
   padding-right: 1rem !important; */
 }
 
+/* ========================================
+   Custom Inline Heading (h7)
+======================================== */
+
+h7 {
+  color: #1a73e8;
+  font-size: inherit;
+  font-weight: normal;
+  display: inline;
+  margin: 0;
+}
