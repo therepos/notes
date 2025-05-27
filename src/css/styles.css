@@ -127,14 +127,19 @@ body,
 }
 
 .theme-edit-this-page {
-  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
-.theme-doc-footer-edit-meta {
-  display: flex;
+.theme-doc-footer-edit-meta-row {
+  display: flex !important;
+  justify-content: flex-start !important;
   align-items: center;
-  justify-content: flex-start;
-  gap: 1rem; /* spacing between icon and date */
+  gap: 1rem;
+}
+
+.theme-doc-footer-edit-meta-row > .col {
+  flex: unset !important;
+  max-width: unset !important;
 }
 
 /* ========================================
