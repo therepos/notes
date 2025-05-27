@@ -1,7 +1,7 @@
 ---
 id: index
-title: index
-sidebar_label: home
+title: Home
+sidebar_label: About
 ---
 
 # About
