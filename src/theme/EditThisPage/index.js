@@ -14,11 +14,11 @@ export default function EditThisPage({ editUrl }) {
         color: '#aaa',
         textDecoration: 'none',
         fontSize: '1rem',
-        paddingLeft: '2rem',
+        paddingLeft: '1rem',
         display: 'inline-block',
       }}
     >
-      📝
+    📝
     </a>
   );
 }
