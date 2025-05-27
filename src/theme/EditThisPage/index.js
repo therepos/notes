@@ -9,7 +9,7 @@ export default function EditThisPage({ editUrl }) {
       title="Edit this page"
       style={{
         textDecoration: 'none',
-        paddingLeft: '1rem',
+        paddingLeft: '1.5rem',
         display: 'inline-block',
       }}
     >
