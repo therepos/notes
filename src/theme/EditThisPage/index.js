@@ -6,6 +6,7 @@ export default function EditThisPage({ editUrl }) {
       href={editUrl}
       target="_blank"
       rel="noopener noreferrer"
+      className="theme-edit-this-page"
       title="Edit this page"
       style={{
         textDecoration: 'none',
