@@ -117,7 +117,10 @@ body,
 
 .theme-last-updated {
   font-style: normal;
-  padding-right: 2rem; /* Adjust as needed to match content edge */
+  max-width: 996px;
+  margin: 0 auto;
+  text-align: right;
+  padding-right: 1rem; /* Matches typical container side padding */
 }
 
 .theme-edit-this-page {
