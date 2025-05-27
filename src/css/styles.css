@@ -116,10 +116,8 @@ body,
 }
 
 .theme-last-updated {
-  font-style: normal;             
-  text-align: left;                 
-  margin-left: var(--ifm-spacing-horizontal); 
-  padding-left: 0;
+  font-style: normal;
+  padding-right: 2rem; /* Adjust as needed to match content edge */
 }
 
 .theme-edit-this-page {
