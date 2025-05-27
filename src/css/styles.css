@@ -119,7 +119,7 @@ body,
   color: var(--ifm-color-content-secondary);
   padding-left: var(--ifm-spacing-horizontal); /* aligns with content */
   margin-left: 0;
-  display: block; /* ensures full line alignment */
+  display: inline-block;
 }
 
 .theme-last-updated b {
@@ -131,13 +131,19 @@ body,
   margin-left: 0;
 }
 
-/* Prevent the "Last updated" column from expanding to the right */
-.theme-doc-footer-edit-meta-row > .col:last-child {
-  flex: unset !important;
-  max-width: unset !important;
-  padding: 0 !important;
-  display: block !important;
+/* Collapse the grid layout for the footer meta row */
+.theme-doc-footer-edit-meta-row {
+  display: block !important; /* break the row/col layout */
 }
+
+/* Force the "last updated" column to behave like a block */
+.theme-doc-footer-edit-meta-row > .col:last-child {
+  display: block !important;
+  float: none !important;
+  text-align: left !important;
+  padding-left: var(--ifm-spacing-horizontal);
+}
+
 
 /* ========================================
    Material Icons
