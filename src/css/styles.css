@@ -8,6 +8,7 @@
 
 .container {
   max-width: 100%;
+  padding: 1rem;
 }
 
 /* ========================================
@@ -220,7 +221,7 @@ h3.title_f1Hy {
 
 /* Tags */
 
-.tags_jXut {
+/* .tags_jXut {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -249,7 +250,7 @@ h3.title_f1Hy {
 
 .theme-blog-post-page article * {
   font-family: 'Inter', sans-serif !important;
-}
+} */
 
 
 
