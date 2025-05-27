@@ -130,6 +130,13 @@ body,
   margin-left: 1rem;
 }
 
+.theme-doc-footer-edit-meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem; /* spacing between icon and date */
+}
+
 /* ========================================
    Material Icons
 ======================================== */
