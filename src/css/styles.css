@@ -132,14 +132,17 @@ body,
 
 .theme-doc-footer-edit-meta-row {
   display: flex !important;
-  justify-content: flex-start !important;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 1rem;
+  justify-content: flex-start;
+  gap: 0.5rem; /* smaller spacing */
+  margin-top: 1rem; /* optional */
 }
 
 .theme-doc-footer-edit-meta-row > .col {
   flex: unset !important;
   max-width: unset !important;
+  padding: 0 !important;
 }
 
 /* ========================================
