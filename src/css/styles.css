@@ -111,22 +111,28 @@ body,
   padding: 0 1.5rem;
 }
 
-.theme-last-updated {
+.theme-last-updated b {
+  font-weight: 400;
+}
+
+.theme-doc-footer-edit-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: var(--ifm-spacing-horizontal);
+}
+
+.edit-link {
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: var(--ifm-color-content-secondary);
-  padding-left: var(--ifm-spacing-horizontal);
   text-decoration: none;
 }
 
-.theme-last-updated:hover {
+.edit-link:hover {
   text-decoration: underline;
   color: var(--ifm-color-primary);
-}
-
-.theme-last-updated b {
-  font-weight: 400;
 }
 
 /* ========================================
