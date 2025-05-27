@@ -118,18 +118,11 @@ body,
   font-style: normal;
   color: #666;
   float: left; /* or use flex below */
-  margin-left: 2rem; /* aligns with the edit icon */
+  margin-left: 1rem; /* aligns with the edit icon */
 }
 
 .theme-edit-this-page {
-  margin-left: 2rem;
-}
-
-/* Optional: Group both elements in a single row */
-.edit-meta-row {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+  margin-left: 1rem;
 }
 
 /* ========================================
