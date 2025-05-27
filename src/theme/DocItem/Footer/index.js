@@ -1,7 +1,6 @@
 import React from 'react';
 import { useDoc } from '@docusaurus/theme-common/internal';
 import clsx from 'clsx';
-import styles from './styles.module.css';
 
 export default function DocItemFooter() {
   const { metadata } = useDoc();

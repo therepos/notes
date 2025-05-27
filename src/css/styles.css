@@ -116,9 +116,8 @@ body,
   font-size: 13px;
   font-weight: 400;
   color: var(--ifm-color-content-secondary);
+  padding-left: var(--ifm-spacing-horizontal);
   text-decoration: none;
-  display: inline-block;
-  padding-left: var(--ifm-spacing-horizontal); /* aligns with content */
 }
 
 .theme-last-updated:hover {
@@ -127,7 +126,7 @@ body,
 }
 
 .theme-last-updated b {
-  font-weight: 400; /* keep it normal */
+  font-weight: 400;
 }
 
 /* ========================================
