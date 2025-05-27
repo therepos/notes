@@ -132,10 +132,9 @@ body,
 
 .theme-doc-footer-edit-meta-row {
   display: flex !important;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.5rem; /* smaller spacing */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
   margin-top: 1rem; /* optional */
 }
 
