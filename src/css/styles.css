@@ -8,7 +8,7 @@
 
 .container {
   max-width: 100%;
-  padding: 1rem;
+  padding: 0;
 }
 
 /* ========================================
@@ -213,4 +213,7 @@ h3.title_f1Hy {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 600;
+}
+.main-wrapper.page-blog {
+  padding: 2rem;
 }
