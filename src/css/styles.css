@@ -115,24 +115,6 @@ body,
   font-weight: 400;
 }
 
-.theme-last-updated {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: var(--ifm-color-content-secondary);
-  text-decoration: none;
-  padding-left: var(--ifm-spacing-horizontal);
-}
-
-.theme-last-updated:hover {
-  text-decoration: underline;
-  color: var(--ifm-color-primary);
-}
-
-.theme-last-updated b {
-  font-weight: 400;
-}
-
 /* ========================================
    Material Icons
 ======================================== */
