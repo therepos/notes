@@ -118,6 +118,7 @@ body,
 .theme-last-updated {
   font-style: normal;
   font-size: 0.9rem;
+  padding-left: 1rem;
 }
 
 .theme-edit-this-page {
@@ -125,21 +126,6 @@ body,
   font-size: 0.9rem;
   color: var(--ifm-color-secondary); 
   padding-left: 1rem;
-}
-
-/* ========================================
-   Material Icons
-======================================== */
-
-.material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
-  color: #aaa;
-  font-size: 1rem;
-  vertical-align: middle;
 }
 
 /* ========================================
