@@ -116,9 +116,14 @@ body,
   font-size: 13px;
   font-weight: 400;
   font-style: normal;
-  color: #666;
+  color: var(--ifm-color-content-secondary);
+  /* color: #666; */
   float: left; /* or use flex below */
   margin-left: 1rem; /* aligns with the edit icon */
+}
+
+.theme-last-updated b {
+  font-weight: normal;
 }
 
 .theme-edit-this-page {
