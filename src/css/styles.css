@@ -8,6 +8,7 @@
 
 .container {
   max-width: 100%;
+  padding: 0;
 }
 
 /* Remove all padding for docs pages */
