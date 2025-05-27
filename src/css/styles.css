@@ -118,30 +118,17 @@ body,
   font-style: normal;
   color: var(--ifm-color-content-secondary);
   padding-left: var(--ifm-spacing-horizontal); /* aligns with content */
-  margin-left: 0; /* remove manual shift */
-}
-
-.theme-edit-this-page {
-  padding-left: var(--ifm-spacing-horizontal); /* aligns with content */
   margin-left: 0;
+  display: block; /* ensures full line alignment */
 }
 
 .theme-last-updated b {
   font-weight: normal;
 }
 
-.theme-doc-footer-edit-meta-row {
-  display: flex !important;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.25rem;
-  margin-top: 1rem;
-}
-
-.theme-doc-footer-edit-meta-row > .col {
-  flex: unset !important;
-  max-width: unset !important;
-  padding: 0 !important;
+.theme-edit-this-page {
+  padding-left: var(--ifm-spacing-horizontal); /* aligns with content */
+  margin-left: 0;
 }
 
 /* ========================================
