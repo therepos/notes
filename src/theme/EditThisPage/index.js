@@ -16,9 +16,10 @@ export default function EditThisPage({ editUrl }) {
         fontSize: '1rem',
         paddingLeft: '1rem',
         display: 'inline-block',
+        filter: 'grayscale(100%)',
       }}
     >
-    📝
+      📝
     </a>
   );
 }
