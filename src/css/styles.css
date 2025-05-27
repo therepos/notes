@@ -117,7 +117,8 @@ body,
 
 .theme-last-updated {
   font-style: normal;
-  padding-right: 1rem; 
+  font-size: 0.9rem;
+  padding-right: 2rem; 
 }
 
 .theme-edit-this-page {
