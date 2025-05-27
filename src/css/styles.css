@@ -6,20 +6,17 @@
   display: none;
 }
 
+/* Global reset for all containers — docs included */
 .container {
   max-width: 100%;
+  padding: 0;
 }
 
-/* Remove all padding for docs pages */
-.docs-wrapper.docs-doc-page main {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* Add 1rem horizontal padding for blog posts */
-html.blog-wrapper.blog-post-page main {
-  padding-left: 1rem;
-  padding-right: 1rem;
+/* Blog-specific override */
+html.blog-wrapper .container {
+  max-width: var(--ifm-container-width-xl);
+  padding-left: var(--ifm-spacing-horizontal) !important;
+  padding-right: var(--ifm-spacing-horizontal) !important;
 }
 
 /* ========================================
