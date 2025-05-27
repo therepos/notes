@@ -1,19 +1,41 @@
 import React from 'react';
 import { useDoc } from '@docusaurus/theme-common/internal';
+import clsx from 'clsx';
 
 export default function DocItemFooter() {
   const { metadata } = useDoc();
-  const { lastUpdatedAt } = metadata;
+  const { editUrl, lastUpdatedAt, formattedLastUpdatedAt } = metadata;
 
-  if (!lastUpdatedAt) return null;
-
-  const formattedDate = new Date(lastUpdatedAt * 1000).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
+  if (!editUrl || !lastUpdatedAt) {
+    return null;
+  }
 
   return (
-    <span className="last-updated-date">{formattedDate}</span>
+    <footer className={clsx('theme-doc-footer', 'docusaurus-mt-lg')}>
+      <div
+        className="theme-doc-footer-edit-meta-row"
+        style={{ paddingLeft: 'var(--ifm-spacing-horizontal)' }}
+      >
+        <span className="theme-last-updated">
+          <a
+            href={editUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="edit-link"
+            title="Edit this page"
+          >
+            Last updated
+          </a>{' '}
+          <b>
+            <time
+              dateTime={new Date(lastUpdatedAt * 1000).toISOString()}
+              itemProp="dateModified"
+            >
+              {formattedLastUpdatedAt}
+            </time>
+          </b>
+        </span>
+      </div>
+    </footer>
   );
 }
