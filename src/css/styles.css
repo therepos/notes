@@ -115,6 +115,14 @@ body,
   font-weight: 400;
 }
 
+.theme-last-updated {
+  font-style: normal;             
+  text-align: left;                 
+  margin-left: var(--ifm-spacing-horizontal); 
+  padding-left: 0;
+}
+
+
 /* ========================================
    Material Icons
 ======================================== */
