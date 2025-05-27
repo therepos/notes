@@ -131,6 +131,14 @@ body,
   margin-left: 0;
 }
 
+/* Prevent the "Last updated" column from expanding to the right */
+.theme-doc-footer-edit-meta-row > .col:last-child {
+  flex: unset !important;
+  max-width: unset !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
 /* ========================================
    Material Icons
 ======================================== */
