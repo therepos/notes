@@ -214,6 +214,7 @@ h3.title_f1Hy {
   font-size: 20px;
   font-weight: 600;
 }
-.main-wrapper.page-blog {
-  padding: 2rem;
+
+.page-blog .container {
+  padding: 2rem !important;
 }
