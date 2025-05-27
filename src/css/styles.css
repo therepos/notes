@@ -142,8 +142,6 @@ body,
   float: none !important;
   text-align: left !important;
   padding-left: var(--ifm-spacing-horizontal);
-  box-sizing: border-box;
-  width: 100%; /* ensures it aligns inside container */
 }
 
 
