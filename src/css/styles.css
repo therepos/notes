@@ -10,8 +10,16 @@
   max-width: 100%;
 }
 
-.page-docs .container {
-  padding: 0;
+/* Remove all padding for docs pages */
+html.docs-wrapper.docs-doc-page main {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Add 1rem horizontal padding for blog posts */
+html.blog-wrapper.blog-post-page main {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* ========================================
@@ -216,8 +224,4 @@ h3.title_f1Hy {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 600;
-}
-
-.page-blog .container {
-  padding: 2rem !important;
 }
