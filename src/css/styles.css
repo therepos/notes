@@ -19,6 +19,11 @@ html.blog-wrapper .container {
   padding-right: var(--ifm-spacing-horizontal) !important;
 }
 
+.theme-doc-breadcrumbs {
+  padding-left: var(--ifm-spacing-horizontal);
+  padding-right: var(--ifm-spacing-horizontal);
+}
+
 /* ========================================
    Landing Page Overrides (match JSX)
 ======================================== */
