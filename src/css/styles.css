@@ -6,22 +6,9 @@
   display: none;
 }
 
-/* Global reset for all containers — docs included */
 .container {
   max-width: 100%;
   padding: 0;
-}
-
-/* Blog-specific override */
-html.blog-wrapper .container {
-  max-width: var(--ifm-container-width-xl);
-  padding-left: var(--ifm-spacing-horizontal) !important;
-  padding-right: var(--ifm-spacing-horizontal) !important;
-}
-
-.theme-doc-breadcrumbs {
-  padding-left: var(--ifm-spacing-horizontal);
-  padding-right: var(--ifm-spacing-horizontal);
 }
 
 /* ========================================
@@ -79,7 +66,7 @@ html.blog-wrapper .container {
   line-height: 20px;
   font-weight: 500;
   white-space: normal !important;
-  word-break: break-word; /* optional: breaks long tokens like underscores */
+  word-break: break-word;
 }
 
 /* ========================================
@@ -129,7 +116,7 @@ body,
   font-size: 13px;
   font-weight: 400;
   font-style: normal;
-  color: #666; /* optional: softer tone */
+  color: #666;
 }
 
 .theme-edit-this-page {
@@ -227,3 +214,20 @@ h3.title_f1Hy {
   font-size: 20px;
   font-weight: 600;
 }
+
+.theme-doc-breadcrumbs {
+  padding-left: var(--ifm-spacing-horizontal);
+  padding-right: var(--ifm-spacing-horizontal);
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
+}
+
+/* Layout */
+html.blog-wrapper .container {
+  max-width: var(--ifm-container-width-xl);
+  padding-left: var(--ifm-spacing-horizontal) !important;
+  padding-right: var(--ifm-spacing-horizontal) !important;
+  /* padding-left: 1rem !important;
+  padding-right: 1rem !important; */
+}
+

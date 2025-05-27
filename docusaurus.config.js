@@ -24,11 +24,10 @@ export default {
         blog: {
           showReadingTime: true,
           blogTitle: 'Blog',
-          blogDescription: 'Thoughts, updates, and notes.',
+          blogDescription: 'Thoughts and updates.',
           routeBasePath: 'blog',
           blogSidebarTitle: 'Events',
           blogSidebarCount: 'ALL',
-          editUrl: 'https://github.com/therepos/notes/edit/main/',
         },
         theme: {
           customCss: './src/css/styles.css',
