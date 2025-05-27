@@ -117,21 +117,14 @@ body,
 
 .theme-last-updated {
   font-style: normal;
-  max-width: 996px;
-  margin: 0 auto;
-  text-align: right;
-  padding-right: 1rem; /* Matches typical container side padding */
+  padding-right: 1rem; 
 }
 
 .theme-edit-this-page {
   font-style: normal;
   font-size: 0.9rem;
-  color: var(--ifm-color-secondary); /* Match metadata tone */
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px; /* Match content width */
-  padding: 0 1rem;
-  display: block;
+  color: var(--ifm-color-secondary); 
+  padding-left: 1rem;
 }
 
 /* ========================================
