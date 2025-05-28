@@ -2,9 +2,8 @@
 
 ### Network
 
+Verify port usage. Replace 3017 with the targeted port number.
 ```js
-# Verify port usage. 
-# Replace 3017 with the targeted port number.
 sudo ss -tuln | grep 3017
 ```
 
