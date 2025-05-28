@@ -9,6 +9,8 @@ sudo ss -tuln | grep 3017
 
 Change permission of filetypes
 ```bash
+#!/bin/bash
+
 sudo chown root:toor *.m4a *.flac
 sudo chmod 664 *.m4a *.flac
 ls -l /mnt/sec/apps/music
