@@ -24,7 +24,6 @@ this is a code block
 
 ### Images
 
-
 ```markdown
 ![Alt text](image_url)
 ```
@@ -32,14 +31,12 @@ this is a code block
 
 ### Horizontal Line
 
-
 ```markdown
 ---
 ```
 
 
 ### Links
-
 
 ```markdown
 <!-- in-line links  -->
@@ -52,7 +49,6 @@ this is a code block
 
 ### Table
 
-
 ```markdown
 | Header 1 | Header 2 |
 |----------|----------|
@@ -61,7 +57,6 @@ this is a code block
 
 
 ### Text Formatting
-
 
 ```markdown
 **bold**
@@ -84,9 +79,6 @@ this is a code block
 
 #### Header Paragraph Anchored
 ```
-
-
-
 
 ***
 

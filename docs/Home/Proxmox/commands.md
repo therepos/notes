@@ -3,14 +3,12 @@
 ### Network
 
 Verify port usage. Replace 3017 with the targeted port number.
-```js
+```bash
 sudo ss -tuln | grep 3017
 ```
 
 Change permission of filetypes
 ```bash
-#!/bin/bash
-
 sudo chown root:toor *.m4a *.flac
 sudo chmod 664 *.m4a *.flac
 ls -l /mnt/sec/apps/music
@@ -21,24 +19,24 @@ List open files
 lsof +D /mnt/sec/media/videos/upload/location
 ```
 
+List Docker Container content
 ```bash
-# List Docker Container content
 docker exec -it <container_name> /bin/bash
 ls -lah /
 ```
 
+Listen for file changes
 ```bash
-# Listen for file changes
 inotifywait -m -r /mnt/sec/media/videos/upload/location
 ```
 
+Print video format
 ```bash
-# Print video format
 docker exec -it ffmpeg ffprobe -v error -show_format -show_streams -i "/config/file.mp4" > /mnt/sec/media/videos/file_info.txt
 ```
 
+Push to GHCR
 ```bash
-# Push to GHCR
 GitHub > Settings > Developer Settings > Personal Access Tokens > Classic Token
 
 echo <PAT> | docker login ghcr.io -u therepos --password-stdin
@@ -53,29 +51,29 @@ echo <PAT> | docker login ghcr.io -u therepos --password-stdin
 docker push ghcr.io/therepos/pdfai:latest
 ```
 
+Pull docker image
 ```bash
-# Pull docker image
 docker pull ghcr.io/therepos/pdfai:latest
 ```
 
+Clone repo
 ```bash
-# Clone repo
 git clone https://github.com/therepos/docker.git
 cd docker/pdfai
 ```
 
+Export folder from docker service
 ```bash
-# Export folder from docker service
 docker cp pdfai:/app /mnt/sec/apps/pdfai/export/app
 ```
 
+Shows DEBUG log
 ```bash
-# Shows DEBUG log
 docker logs pdfai 2>&1 | grep "DEBUG"
 ```
 
+Alias
 ```bash
-# Alias
 alias purgedockerct='bash -c "$(wget -qLO- https://github.com/therepos/proxmox/raw/main/tools/purge-dockerct.sh)"'
 source ~/.bashrc
 purgedockerct
@@ -83,8 +81,8 @@ purgedockerct
 unalias purgedockerct
 ```
 
+Show only lines containing "ERROR"
 ```bash
-# Show only lines containing "ERROR"
 docker logs -f pdfai 2>&1 | grep ERROR
 
 # Or use less to scroll/search
