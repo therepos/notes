@@ -119,6 +119,8 @@ body,
   font-style: normal;
   font-size: 0.9rem;
   padding-left: 1rem;
+  margin-top: 0.5rem;
+  color: var(--ifm-color-secondary);
 }
 
 .theme-edit-this-page {
