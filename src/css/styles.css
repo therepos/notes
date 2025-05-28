@@ -157,6 +157,25 @@ body,
     'opsz' 24;
 }
 
+/* Prevent horizontal scroll on small devices */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.theme-doc-markdown {
+  overflow-x: hidden;
+}
+
+/* Prevent code blocks or pre blocks from overflowing */
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 /* ========================================
    Markdown
 ======================================== */
