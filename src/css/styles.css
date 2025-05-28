@@ -10,18 +10,9 @@
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  padding-left: 0;
+  padding-left: 0.1rem;
   padding-right: var(--ifm-spacing-horizontal);
 }
-
-/* html, body {
-  overflow-x: hidden;
-  max-width: 100vw;
-}
-
-* {
-  box-sizing: border-box;
-} */
 
 /* Blog Only */
 html.blog-wrapper .container {
