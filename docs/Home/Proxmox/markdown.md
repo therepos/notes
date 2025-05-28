@@ -2,7 +2,6 @@
 
 ### Anchoring
 
-
 ```markdown
 <!-- this is for manual anchoring -->
 <!-- destination page -->
@@ -21,6 +20,19 @@
 this is a code block
 ```
 ````
+
+### Emphasis
+
+<mark>mark</mark>  
+<strong>strong</strong>  
+<em>em</em>  
+<code>code</code>  
+<kbd>kbd</kbd>  
+<del>del</del>  
+<s>s</s>  
+<ins>ins</ins>  
+<span>span</span>
+
 
 ### Images
 
@@ -80,7 +92,8 @@ this is a code block
 #### Header Paragraph Anchored
 ```
 
-***
+
+---
 
 ### References
 
