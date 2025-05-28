@@ -2,12 +2,7 @@ import React from 'react';
 import EditThisPage from '@theme/EditThisPage';
 import LastUpdated from '@theme/LastUpdated';
 
-export default function EditMetaRow({
-  editUrl,
-  lastUpdatedAt,
-  lastUpdatedBy,
-  formattedLastUpdatedAt,
-}) {
+export default function Meta({editUrl, lastUpdatedAt, lastUpdatedBy, formattedLastUpdatedAt}) {
   return (
     <div className="row margin-top--sm theme-doc-footer-edit-meta-row">
       <div className="col">
