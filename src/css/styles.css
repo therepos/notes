@@ -147,9 +147,8 @@ body,
 .theme-last-updated::before {
   content: "schedule";
   font-family: 'Material Symbols Outlined';
-  display: inline-block;
-  vertical-align: text-bottom;
   font-size: 1rem;
+  vertical-align: middle;
   margin-right: 0.3em;
   font-variation-settings:
     'FILL' 0,
