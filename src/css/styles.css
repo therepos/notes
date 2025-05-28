@@ -130,6 +130,15 @@ body,
   padding-left: var(--ifm-spacing-horizontal);
 }
 
+.theme-doc-footer-edit-meta-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-doc-footer-edit-meta-row > .col {
+  width: 100%;
+}
+
 /* ========================================
    Markdown
 ======================================== */
