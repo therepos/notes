@@ -265,7 +265,7 @@ h7 {
 }
 
 mark {
-  background-color: #ccc; 
+  background-color: var(--ifm-breadcrumb-item-background-active); 
   color: var(--ifm-color-primary);                     
   border-radius: var(--ifm-badge-border-radius);       
   padding: 0.2em 0.5em;
