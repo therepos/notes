@@ -8,7 +8,7 @@
 sudo ss -tuln | grep 3017
 ```
 
-```sh
+```shell
 # Change permission of filetypes
 sudo chown root:toor *.m4a *.flac
 sudo chmod 664 *.m4a *.flac
