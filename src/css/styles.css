@@ -129,14 +129,18 @@ body,
   padding-left: var(--ifm-spacing-horizontal);
 }
 
+/* Force the metadata row to stack vertically */
 .theme-doc-footer-edit-meta-row {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
-.theme-doc-footer-edit-meta-row > .col {
-  width: 100%;
+/* Apply to both columns inside the row */
+.theme-doc-footer-edit-meta-row > .col,
+.theme-doc-footer-edit-meta-row > .lastUpdated_JAkA {
+  width: 100% !important;
+  text-align: left !important;
+  margin-left: 0 !important;
 }
 
 /* ========================================
