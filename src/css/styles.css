@@ -143,6 +143,19 @@ body,
   margin-left: 0 !important;
 }
 
+.theme-last-updated::before {
+  content: "schedule";
+  font-family: 'Material Symbols Outlined';
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-right: 0.3em;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
 /* ========================================
    Markdown
 ======================================== */
