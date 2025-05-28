@@ -1,3 +1,5 @@
+import {themes as prismThemes} from 'prism-react-renderer';
+
 export default {
   title: 'Notes',
   tagline: 'Quick Notes',
@@ -69,8 +71,7 @@ export default {
       ],
     },
     prism: {
-      theme: 'github',
-      darkTheme: 'dracula',
+      theme: prismThemes.dracula,
     },
   },
   
