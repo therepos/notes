@@ -2,7 +2,7 @@
 
 ### Directories
 
-<h7>/var/lib/vz/dump</h7> : virtual machines backup  
+<mark>/var/lib/vz/dump</mark> : virtual machines backup  
 <h7>/var/lib/vz/template/iso</h7> : iso templates  
 <h7>/var/lib/vz/template/cache</h7> : lxc templates  
 <h7>/var/lib/docker/volumes</h7> : docker volumes  
