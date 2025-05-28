@@ -274,7 +274,6 @@ em {
   color: var(--ifm-color-primary);                     
   border-radius: var(--ifm-badge-border-radius);       
   padding: 0.2em 0.5em;
-  font-weight: 500;
   font-size: 100%;
   white-space: nowrap;
 }
