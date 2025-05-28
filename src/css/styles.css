@@ -23,6 +23,13 @@ html, body {
   box-sizing: border-box;
 }
 
+/* Blog Only */
+html.blog-wrapper .container {
+  max-width: var(--ifm-container-width-xl);
+  padding-left: var(--ifm-spacing-horizontal) !important;
+  padding-right: var(--ifm-spacing-horizontal) !important;
+}
+
 /* ========================================
    Landing Page Overrides (match JSX)
 ======================================== */
@@ -123,15 +130,9 @@ body,
   padding: 0 1.5rem;
 }
 
-.theme-last-updated b {
-  font-weight: 400;
-}
-
-.theme-last-updated {
-  font-style: normal;
-  font-size: 0.9rem;
-  padding-left: 1rem;
-  color: var(--ifm-color-secondary);
+.theme-doc-breadcrumbs {
+  padding-left: var(--ifm-spacing-horizontal);
+  padding-right: var(--ifm-spacing-horizontal);
 }
 
 .theme-edit-this-page {
@@ -141,13 +142,13 @@ body,
   padding-left: var(--ifm-spacing-horizontal);
 }
 
-/* Stacks meta-row vertically */
+/* Footer: Stacks vertically */
 .theme-doc-footer-edit-meta-row {
   display: flex;
   flex-direction: column;
 }
 
-/* Align meta-row left */
+/* Footer: Align left */
 .theme-doc-footer-edit-meta-row > .col,
 .theme-doc-footer-edit-meta-row > .lastUpdated_JAkA {
   width: 100% !important;
@@ -155,7 +156,20 @@ body,
   margin-left: 0 !important;
 }
 
-/* Apply material icon before LastUpdated */
+/* LastUpdated: Unbold date */
+.theme-last-updated b {
+  font-weight: 400;
+}
+
+/* LastUpdated: Standardize fonts */
+.theme-last-updated {
+  font-style: normal;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  color: var(--ifm-color-secondary);
+}
+
+/* LastUpdated: Add material icon */
 .theme-last-updated::before {
   content: "schedule";
   font-family: 'Material Symbols Outlined';
@@ -247,22 +261,6 @@ h3.title_f1Hy {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 600;
-}
-
-.theme-doc-breadcrumbs {
-  padding-left: var(--ifm-spacing-horizontal);
-  padding-right: var(--ifm-spacing-horizontal);
-  /* padding-left: 1.5rem;
-  padding-right: 1.5rem; */
-}
-
-/* Layout */
-html.blog-wrapper .container {
-  max-width: var(--ifm-container-width-xl);
-  padding-left: var(--ifm-spacing-horizontal) !important;
-  padding-right: var(--ifm-spacing-horizontal) !important;
-  /* padding-left: 1rem !important;
-  padding-right: 1rem !important; */
 }
 
 /* ========================================
