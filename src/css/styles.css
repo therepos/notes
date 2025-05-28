@@ -256,7 +256,7 @@ h3.title_f1Hy {
    Custom Highlights
 ======================================== */
 
-h7 {
+mark {
   color: #1a73e8;
   font-size: inherit;
   font-weight: normal;
@@ -264,7 +264,7 @@ h7 {
   margin: 0;
 }
 
-mark {
+/* mark {
   background-color: var(--ifm-breadcrumb-item-background-active); 
   color: var(--ifm-color-primary);                     
   border-radius: var(--ifm-badge-border-radius);       
@@ -272,4 +272,4 @@ mark {
   font-weight: 500;
   font-size: 90%;
   white-space: nowrap;
-}
+} */

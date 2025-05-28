@@ -3,11 +3,11 @@
 ### Directories
 
 <mark>/var/lib/vz/dump</mark> : virtual machines backup  
-<h7>/var/lib/vz/template/iso</h7> : iso templates  
-<h7>/var/lib/vz/template/cache</h7> : lxc templates  
-<h7>/var/lib/docker/volumes</h7> : docker volumes  
-<h7>/var/lib/docker/containers</h7> : docker container data  
-<h7>/var/lib/docker/logs</h7> : docker logs
+<mark>/var/lib/vz/template/iso</mark> : iso templates  
+<mark>/var/lib/vz/template/cache</mark> : lxc templates  
+<mark>/var/lib/docker/volumes</mark> : docker volumes  
+<mark>/var/lib/docker/containers</mark> : docker container data  
+<mark>/var/lib/docker/logs</mark> : docker logs
 
 ---
 
