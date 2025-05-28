@@ -263,3 +263,13 @@ h7 {
   display: inline;
   margin: 0;
 }
+
+mark {
+  background-color: var(--ifm-badge-background-color); 
+  color: var(--ifm-color-primary);                     
+  border-radius: var(--ifm-badge-border-radius);       
+  padding: 0.2em 0.5em;
+  font-weight: 500;
+  font-size: 90%;
+  white-space: nowrap;
+}
