@@ -129,13 +129,13 @@ body,
   padding-left: var(--ifm-spacing-horizontal);
 }
 
-/* Force the metadata row to stack vertically */
+/* Stacks meta-row vertically */
 .theme-doc-footer-edit-meta-row {
   display: flex;
   flex-direction: column;
 }
 
-/* Apply to both columns inside the row */
+/* Align meta-row left */
 .theme-doc-footer-edit-meta-row > .col,
 .theme-doc-footer-edit-meta-row > .lastUpdated_JAkA {
   width: 100% !important;
@@ -143,11 +143,13 @@ body,
   margin-left: 0 !important;
 }
 
+/* Apply material icon before LastUpdated */
 .theme-last-updated::before {
   content: "schedule";
   font-family: 'Material Symbols Outlined';
+  display: inline-block;
+  vertical-align: text-bottom;
   font-size: 1rem;
-  vertical-align: middle;
   margin-right: 0.3em;
   font-variation-settings:
     'FILL' 0,
