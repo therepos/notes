@@ -8,15 +8,15 @@
 sudo ss -tuln | grep 3017
 ```
 
+Change permission of filetypes
 ```shell
-# Change permission of filetypes
 sudo chown root:toor *.m4a *.flac
 sudo chmod 664 *.m4a *.flac
 ls -l /mnt/sec/apps/music
 ```
 
+
 ```bash
-# List open files
 lsof +D /mnt/sec/media/videos/upload/location
 ```
 
