@@ -71,7 +71,7 @@ export default {
       ],
     },
     prism: {
-      theme: prismThemes.dracula,
+      theme: prismThemes.github,
     },
   },
   
