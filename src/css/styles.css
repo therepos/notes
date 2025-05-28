@@ -271,9 +271,9 @@ strong {
 
 em {
   background-color: var(--ifm-breadcrumb-item-background-active); 
-  color: var(--ifm-color-primary);                     
+  color: inherit;                     
   border-radius: var(--ifm-badge-border-radius);       
-  padding: 0.2em 0.5em;
-  font-size: 100%;
+  padding: 0.1em 0.2em;
+  font-size: 95%;
   white-space: nowrap;
 }
