@@ -2,9 +2,14 @@ import React from 'react';
 import EditThisPage from '@theme/EditThisPage';
 import LastUpdated from '@theme/LastUpdated';
 
-export default function DocItemMetadata({editUrl, lastUpdatedAt, lastUpdatedBy, formattedLastUpdatedAt}) {
+export default function DocItemMetadata({
+  editUrl,
+  lastUpdatedAt,
+  lastUpdatedBy,
+  formattedLastUpdatedAt,
+}) {
   return (
-    <div className="row margin-top--sm">
+    <div className="row margin-top--sm theme-doc-footer-edit-meta-row">
       <div className="col">
         {editUrl && <EditThisPage editUrl={editUrl} />}
         {(lastUpdatedAt || lastUpdatedBy) && (
