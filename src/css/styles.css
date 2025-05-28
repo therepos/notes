@@ -257,6 +257,7 @@ h3.title_f1Hy {
 ======================================== */
 
 mark {
+  background-color: none; 
   color: #1a73e8;
   font-size: inherit;
   font-weight: normal;
