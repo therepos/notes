@@ -68,8 +68,10 @@ export default {
         },
       ],
     },
+  },
 
-    // Material Icons
+  // Material Icons
+  injectHtmlTags: () => ({
     headTags: [
       {
         tagName: 'link',
@@ -79,5 +81,5 @@ export default {
         },
       },
     ],
-  },
+  }),
 };
