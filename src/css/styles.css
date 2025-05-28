@@ -133,6 +133,7 @@ body,
 .theme-doc-footer-edit-meta-row {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .theme-doc-footer-edit-meta-row > .col {
