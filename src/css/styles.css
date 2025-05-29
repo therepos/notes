@@ -271,6 +271,11 @@ h3.title_f1Hy {
   font-weight: 600;
 }
 
+/* Component: Read More */
+.col.text--right {
+  text-align: left !important;
+}
+
 /* ========================================
    Custom Text
 ======================================== */
