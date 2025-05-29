@@ -219,7 +219,6 @@ body,
   padding-left: 0.5em;
 }
 
-
 /* ========================================
    Table of Contents
 ======================================== */
@@ -270,20 +269,13 @@ html.blog-wrapper .container {
 }
 
 /* Component: Read More */
-.text--right {
+.col text--right col--3 {
   text-align: left !important;
 }
 
 /* Component: Tags */
 .col--9 > b {
   display: none;
-}
-
-/* 1. Lighten the date and read time */
-article time,
-article .margin-bottom--md {
-  color: #888888; /* or any lighter gray you prefer */
-  font-weight: normal;
 }
 
 /* 2. Remove bold from "Read more" */
