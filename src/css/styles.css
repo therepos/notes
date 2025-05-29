@@ -270,7 +270,7 @@ html.blog-wrapper .container {
 }
 
 /* Component: Read More */
-.col.text--right {
+.text--right {
   text-align: left !important;
 }
 
