@@ -80,6 +80,15 @@ html.blog-wrapper .container {
 }
 
 /* ========================================
+   Footer
+======================================== */
+
+.footer {
+  font-size: 14px;
+}
+
+
+/* ========================================
    Theme
 ======================================== */
 
@@ -269,7 +278,7 @@ h3.title_f1Hy {
 
 mark {
   background-color: transparent; 
-  color: darkred;
+  color: #1a73e8;
   font-size: inherit;
   font-weight: normal;
   display: inline;
