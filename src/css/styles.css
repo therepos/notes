@@ -208,15 +208,6 @@ body,
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  text-indent: 0;
-  margin-left: 0;
-  padding-left: 0.5rem;
-}
-
-.markdown ul,
-.markdown ol {
-  margin-left: 0;
-  padding-left: 1rem;
 }
 
 /* ========================================
@@ -262,27 +253,23 @@ h3.title_f1Hy {
 }
 
 /* ========================================
-   Custom Highlights
+   Custom Text
 ======================================== */
 
 mark {
   background-color: transparent; 
-  color: #1a73e8;
+  color: darkred;
   font-size: inherit;
   font-weight: normal;
   display: inline;
   margin: 0;
 }
 
-strong {
-  color: darkred;
-}
-
-em {
-  background-color: var(--ifm-breadcrumb-item-background-active); 
+kbd {
+  /* background-color: var(--ifm-breadcrumb-item-background-active); 
   color: inherit;                     
   border-radius: var(--ifm-badge-border-radius);       
-  padding: 0.1em 0.2em;
+  padding: 0.1em 0.2em; */
   font-size: 95%;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
