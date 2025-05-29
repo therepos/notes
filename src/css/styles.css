@@ -1,5 +1,5 @@
 /* ========================================
-   Layout
+   Layout: Docs
 ======================================== */
 
 .pagination-nav {
@@ -14,11 +14,10 @@
   padding-right: var(--ifm-spacing-horizontal);
 }
 
-/* Blog Only */
-html.blog-wrapper .container {
-  max-width: var(--ifm-container-width-xl);
-  padding-left: var(--ifm-spacing-horizontal) !important;
-  padding-right: var(--ifm-spacing-horizontal) !important;
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
 
 /* ========================================
@@ -77,14 +76,6 @@ html.blog-wrapper .container {
   font-weight: 500;
   white-space: normal !important;
   word-break: break-word;
-}
-
-/* ========================================
-   Footer
-======================================== */
-
-.footer {
-  font-size: 14px;
 }
 
 /* ========================================
@@ -271,6 +262,13 @@ h3.title_f1Hy {
   font-weight: 600;
 }
 
+/* Component: Container */
+html.blog-wrapper .container {
+  max-width: var(--ifm-container-width-xl);
+  padding-left: var(--ifm-spacing-horizontal) !important;
+  padding-right: var(--ifm-spacing-horizontal) !important;
+}
+
 /* Component: Read More */
 .col.text--right {
   text-align: left !important;
@@ -280,7 +278,6 @@ h3.title_f1Hy {
 .col--9 > b {
   display: none;
 }
-
 
 /* ========================================
    Custom Text
