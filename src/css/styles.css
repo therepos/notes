@@ -245,7 +245,7 @@ h2.title_f1Hy a {
   font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  color: #1a73e8;
+  color: #3578e5;
   text-decoration: none;
 }
 
@@ -289,7 +289,7 @@ a[aria-label^="Read more"] b {
 
 mark {
   background-color: transparent; 
-  color: #1a73e8;
+  color: #3578e5;
   font-size: inherit;
   font-weight: normal;
   display: inline;
