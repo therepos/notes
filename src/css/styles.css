@@ -276,6 +276,12 @@ h3.title_f1Hy {
   text-align: left !important;
 }
 
+/* Component: Tags */
+.col--9 > b {
+  display: none;
+}
+
+
 /* ========================================
    Custom Text
 ======================================== */
