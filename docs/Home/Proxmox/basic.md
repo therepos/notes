@@ -68,3 +68,5 @@ sudo ss -tuln | grep 3017
 ## References
 
 - [Proxmox Training](https://github.com/ondrejsika/proxmox-training)
+- [Awesome List](https://github.com/sindresorhus/awesome)
+- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)

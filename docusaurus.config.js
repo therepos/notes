@@ -40,7 +40,7 @@ export default {
 
   themeConfig: {
     navbar: {
-      title: 'Docs',
+      title: 'Notes',
       items: [
         {
           type: 'docSidebar',
