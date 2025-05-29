@@ -210,6 +210,17 @@ body,
   font-weight: 400;
 }
 
+.markdown ul, 
+.markdown ol {
+  margin-left: 0;
+  padding-left: 1rem;
+}
+
+.markdown li {
+  padding-left: 0.5em;
+}
+
+
 /* ========================================
    Table of Contents
 ======================================== */
@@ -263,13 +274,4 @@ mark {
   font-weight: normal;
   display: inline;
   margin: 0;
-}
-
-kbd {
-  /* background-color: var(--ifm-breadcrumb-item-background-active); 
-  color: inherit;                     
-  border-radius: var(--ifm-badge-border-radius);       
-  padding: 0.1em 0.2em; */
-  font-size: 95%;
-  /* white-space: nowrap; */
 }
