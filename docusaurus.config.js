@@ -1,5 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const currentYear = new Date().getFullYear();
+
 export default {
   title: 'Notes',
   tagline: 'Quick Notes',
@@ -72,6 +74,11 @@ export default {
     },
     prism: {
       theme: prismThemes.github,
+    },
+    footer: {
+      style: 'dark',
+      links: [],
+      copyright: `Licensed MIT. Copyright © ${currentYear}`,
     },
   },
   
