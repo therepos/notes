@@ -210,10 +210,12 @@ body,
   font-weight: 400;
 }
 
+.markdown li,
 .markdown ul,
 .markdown ol {
   margin-left: 0;
-  padding-left: 1.2em;
+  padding-left: 0;
+  padding-right: 1.2em;
 }
 
 /* ========================================
