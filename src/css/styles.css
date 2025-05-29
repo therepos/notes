@@ -279,6 +279,18 @@ html.blog-wrapper .container {
   display: none;
 }
 
+/* 1. Lighten the date and read time */
+article time,
+article .margin-bottom--md {
+  color: #888888; /* or any lighter gray you prefer */
+  font-weight: normal;
+}
+
+/* 2. Remove bold from "Read more" */
+a[aria-label^="Read more"] b {
+  font-weight: normal;
+}
+
 /* ========================================
    Custom Text
 ======================================== */
