@@ -30,7 +30,7 @@ export default {
           blogTitle: 'Blog',
           blogDescription: 'Thoughts and updates.',
           routeBasePath: 'blog',
-          blogSidebarTitle: 'Events',
+          blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
         },
         theme: {
