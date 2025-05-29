@@ -1,18 +1,31 @@
 # Markdown
 
-### Anchoring
+## Links
+
+- In-line links.
 
 ```markdown
-<!-- this is for manual anchoring -->
-<!-- destination page -->
+[Google](https://www.google.com)
+```
+
+- Reference links.
+
+```
+[Google]: https://www.google.com
+```
+
+### Anchoring
+
+- Manual anchoring.
+
+```markdown
 <a id="custom-anchor"></a> example-destination
 
 <!-- source page  -->
 [Go to Advanced Example](./your-file.md#custom-anchor)
 ```
 
-
-### Code Block
+## Code Block
 
 ````markdown
 <!-- code block  -->
@@ -20,6 +33,7 @@
 this is a code block
 ```
 ````
+## Text
 
 ### Emphasis
 
@@ -32,41 +46,6 @@ this is a code block
 <s>s</s>  
 <ins>ins</ins>  
 <span>span</span>
-
-
-### Images
-
-```markdown
-![Alt text](image_url)
-```
-
-
-### Horizontal Line
-
-```markdown
----
-```
-
-
-### Links
-
-```markdown
-<!-- in-line links  -->
-[Google](https://www.google.com)
-
-<!-- referenced links  -->
-[Google]: https://www.google.com
-```
-
-
-### Table
-
-```markdown
-| Header 1 | Header 2 |
-|----------|----------|
-| Cell 1 | Cell 2 |
-```
-
 
 ### Text Formatting
 
@@ -92,10 +71,29 @@ this is a code block
 #### Header Paragraph Anchored
 ```
 
+## Images
+
+```markdown
+![Alt text](image_url)
+```
+
+## Horizontal Line
+
+```markdown
+---
+```
+
+## Table
+
+```markdown
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1 | Cell 2 |
+```
 
 ---
 
-### References
+## References
 
 * [GitHub Doc - Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
