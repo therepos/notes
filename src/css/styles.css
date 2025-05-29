@@ -288,3 +288,29 @@ mark {
   display: inline;
   margin: 0;
 }
+
+/* ========================================
+   Experimental
+======================================== */
+
+/* Make blog list items look like cards */
+article.margin-bottom--xl {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  margin-bottom: 2rem;
+}
+
+/* Add hover effect */
+article.margin-bottom--xl:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Optional: add spacing between title and meta */
+article.margin-bottom--xl h2 {
+  margin-bottom: 0.5rem;
+}
