@@ -32,6 +32,7 @@ export default {
           routeBasePath: 'blog',
           blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/styles.css',

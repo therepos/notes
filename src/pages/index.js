@@ -32,8 +32,8 @@ export default function Home() {
           <h2 data-aos="fade-up">Latest Updates</h2>
           <div className="updateCard" data-aos="zoom-in">
             <ul>
-              <li><Link to="/blog/updates">May 29 – Updates</Link></li>
-              <li><Link to="/blog/scams">May 20 – Scams</Link></li>
+              <li>May 29 – Updates</li>
+              <li>May 20 – Scams</li>
             </ul>
           </div>
         </div>
