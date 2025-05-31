@@ -4,7 +4,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Redirect() {
   const history = useHistory();
-  const target = useBaseUrl('/docs/Home');  // use /blog for redirect to blog
+  const target = useBaseUrl('/docs/home/');  
+  // use /blog for redirect to blog
+  // no slug default to lowercase folder name
   
   useEffect(() => {
     history.replace(target);
