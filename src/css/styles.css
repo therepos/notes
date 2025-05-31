@@ -156,7 +156,8 @@
 .page-index .theme-last-updated,
 .page-index .col,
 .page-index .lastUpdated_JAkA,
-.page-index main {
+.page-index main,
+.page-index footer {
   display: none !important;
 }
 
