@@ -34,22 +34,24 @@
   margin-bottom: 2rem;
 }
 
+.landing-card {
+  background-color: #f6f6f6;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 250px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .landing-card-grid {
   display: flex;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-}
-
-.landing-card {
-  border: 1px solid #ccc;
-  padding: 1.5rem;
-  border-radius: 8px;
-  width: 250px;
-  text-align: left;
-  text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background-color: #f9f9f9;
+  margin-top: 2rem;
 }
 
 .landing-card:hover {
@@ -59,6 +61,11 @@
 
 .landing-card h2 {
   margin: 0 0 0.5rem;
+}
+
+.landing-card h3 a {
+  color: #3366ff;
+  text-decoration: none;
 }
 
 .landing-card p {
@@ -80,32 +87,16 @@
   background-attachment: fixed;
 }
 
-.container {
+.heroContainer {
   max-width: 960px;
   margin: 0 auto;
+  padding: 4rem 1rem;
 }
 
-.cardRow {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.card {
-  background-color: #f6f6f6;
-  color: black;
-  padding: 1.5rem;
-  border-radius: 10px;
-  flex: 1 1 250px;
-  max-width: 300px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.card h3 a {
-  color: #3366ff;
-  text-decoration: none;
+.updatesContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
 }
 
 .updateSection {

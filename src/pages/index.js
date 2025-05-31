@@ -20,8 +20,8 @@ export default function Home() {
     <Layout>
       {/* First Segment (Dark Hero) */}
       <section className="heroSection">
-        <div className="container">
-          <div className="cardRow">
+        <div className="heroContainer">
+          <div className="landing-card-grid">
             <Card title="Home" link="/Home" description="General resources, quick notes, and documentation." />
             <Card title="CISA" link="/Cisa" description="Study notes and materials for the CISA exam." />
             <Card title="Blog" link="/blog" description="Latest posts, updates, and articles." />
@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Second Segment (Updates) */}
       <section className="updateSection">
-        <div className="container">
+        <div className="updatesContainer">
           <div className="updateCard" data-aos="zoom-in">
             <UpdatesMarkdown />
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
 
 function Card({ title, link, description }) {
   return (
-    <div className="card" data-aos="fade-up">
+    <div className="landing-card" data-aos="fade-up">
       <h3><Link to={link}>{title}</Link></h3>
       <p>{description}</p>
     </div>
