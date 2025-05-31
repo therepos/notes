@@ -1,4 +1,4 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 const currentYear = new Date().getFullYear();
 
@@ -38,6 +38,20 @@ export default {
         theme: {
           customCss: './src/css/styles.css',
         },
+      },
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/',
+            to: '/blog',
+          },
+        ],
       },
     ],
   ],
@@ -83,5 +97,5 @@ export default {
       copyright: `<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos.<br/>Made with Docusaurus.`,
     },
   },
-  
+
 };
