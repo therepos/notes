@@ -300,7 +300,7 @@ article.margin-bottom--xl {
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 
 /* Add hover effect */
@@ -310,9 +310,9 @@ article.margin-bottom--xl:hover {
 }
 
 /* Optional: add spacing between title and meta */
-/* article.margin-bottom--xl h2 {
+article.margin-bottom--xl h2 {
   margin-bottom: 0.5rem;
-} */
+}
 
 /* ========================================
    Custom Text
