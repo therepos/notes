@@ -26,7 +26,7 @@ export default {
           editUrl: 'https://github.com/therepos/notes/edit/main/',
         },
         blog: {
-          path: 'blog'
+          path: 'blog',
           routeBasePath: 'blog',
           showReadingTime: true,
           // blogTitle: 'Blog',
