@@ -1,12 +1,17 @@
 ---
 id: index
-title: Redirecting...
+title: Redirect
 slug: /
 hide_table_of_contents: true
 ---
 
-<script>
-  if (typeof window !== 'undefined') {
-    window.location.replace('/blog');
-  }
-</script>
+import { useEffect } from 'react';
+import { useHistory } from '@docusaurus/router';
+
+export default function RedirectToBlog() {
+  const history = useHistory();
+  useEffect(() => {
+    history.push('/blog');
+  }, []);
+  return null;
+}
