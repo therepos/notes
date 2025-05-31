@@ -150,12 +150,15 @@
    Theme
 ======================================== */
 
-.page-index .theme-doc-markdown,
-.page-index .theme-doc-footer,
-.page-index .theme-doc-footer-edit-meta-row,
-.page-index .theme-edit-this-page,
-.page-index .lastUpdated_JAkA {
-  display: none !important;
+/* Full-page white overlay on index.md */
+.page-index .redirect-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 9999;
 }
 
 .theme-doc-markdown {
