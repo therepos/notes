@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import UpdatesMarkdown from '@site/src/data/updates.md';
 
 export default function Home() {
   useEffect(() => {
@@ -31,10 +32,7 @@ export default function Home() {
         <div className="container">
           <h2 data-aos="fade-up">Latest Updates</h2>
           <div className="updateCard" data-aos="zoom-in">
-            <ul>
-              <li>May 29 – Updates</li>
-              <li>May 20 – Scams</li>
-            </ul>
+            <UpdatesMarkdown />
           </div>
         </div>
       </section>
