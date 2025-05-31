@@ -1,27 +1,52 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
+
   return (
-    <Layout title="Welcome" description="Landing page for Notes">
-      <main className="landing-main">
-        <h1 className="landing-title">Welcome to Notes</h1>
-        <div className="landing-card-grid">
-          <Link className="landing-card" to="/Home">
-            <h2>Home</h2>
-            <p>General resources, quick notes, and documentation.</p>
-          </Link>
-          <Link className="landing-card" to="/Cisa">
-            <h2>CISA</h2>
-            <p>Study notes and materials for the CISA exam.</p>
-          </Link>
-          <Link className="landing-card" to="/blog">
-            <h2>Blog</h2>
-            <p>Latest posts, updates, and articles.</p>
-          </Link>
+    <Layout>
+      {/* First Segment (Dark Hero) */}
+      <section className="heroSection">
+        <div className="container">
+          <h1 data-aos="fade-down">Welcome to Notes</h1>
+          <div className="cardRow">
+            <Card title="Home" link="/home" description="General resources, quick notes, and documentation." />
+            <Card title="CISA" link="/cisa" description="Study notes and materials for the CISA exam." />
+            <Card title="Blog" link="/blog" description="Latest posts, updates, and articles." />
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* Wave Divider */}
+      <div className="sectionDivider"></div>
+
+      {/* Second Segment (Updates) */}
+      <section className="updateSection">
+        <div className="container">
+          <h2 data-aos="fade-up">Latest Updates</h2>
+          <div className="updateCard" data-aos="zoom-in">
+            <ul>
+              <li><Link to="/blog/updates">May 29 – Updates</Link></li>
+              <li><Link to="/blog/scams">May 20 – Scams</Link></li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </Layout>
+  );
+}
+
+function Card({ title, link, description }) {
+  return (
+    <div className="card" data-aos="fade-up">
+      <h3><Link to={link}>{title}</Link></h3>
+      <p>{description}</p>
+    </div>
   );
 }
