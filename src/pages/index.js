@@ -19,8 +19,8 @@ export default function Home() {
     <Layout>
       {/* First Segment (Dark Hero) */}
       <section className="heroSection">
-        <div className="container" data-aos="fade-down">
-          <div className="cardRow">
+        <div className="container">
+          <div className="cardRow" data-aos="fade-down">
             <Card title="Home" link="/Home" description="General resources, quick notes, and documentation." />
             <Card title="CISA" link="/Cisa" description="Study notes and materials for the CISA exam." />
             <Card title="Blog" link="/blog" description="Latest posts, updates, and articles." />
