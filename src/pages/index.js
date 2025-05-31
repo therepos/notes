@@ -7,15 +7,18 @@ import UpdatesMarkdown from '@site/src/data/updates.md';
 
 export default function Home() {
   useEffect(() => {
-    AOS.init({ once: true });
+    AOS.init({
+      once: true,
+      duration: 700,
+      easing: 'ease-out-cubic',
+    });
   }, []);
 
   return (
     <Layout>
       {/* First Segment (Dark Hero) */}
-      <section className="heroSection">
+      <section className="heroSection" data-aos="fade-down">
         <div className="container">
-          <h1 data-aos="fade-down">Welcome to Notes</h1>
           <div className="cardRow">
             <Card title="Home" link="/Home" description="General resources, quick notes, and documentation." />
             <Card title="CISA" link="/Cisa" description="Study notes and materials for the CISA exam." />
@@ -28,9 +31,8 @@ export default function Home() {
       <div className="sectionDivider"></div>
 
       {/* Second Segment (Updates) */}
-      <section className="updateSection">
+      <section className="updateSection" data-aos="fade-up">
         <div className="container">
-          <h2 data-aos="fade-up">Latest Updates</h2>
           <div className="updateCard" data-aos="zoom-in">
             <UpdatesMarkdown />
           </div>

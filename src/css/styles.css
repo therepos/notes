@@ -71,6 +71,11 @@
   color: white;
   padding: 4rem 1rem;
   text-align: center;
+  min-height: 100vh; /* Add this */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-attachment: fixed;
 }
 
 .container {
@@ -129,8 +134,10 @@
   background: url('/img/wave-divider.svg') no-repeat center top;
   background-size: cover;
   height: 120px;
+  margin-top: -5px; /* Pull it up to overlap */
+  z-index: 1;
+  position: relative;
 }
-
 
 /* ========================================
    Sidebar

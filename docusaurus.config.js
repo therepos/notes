@@ -26,11 +26,12 @@ export default {
           editUrl: 'https://github.com/therepos/notes/edit/main/',
         },
         blog: {
-          showReadingTime: true,
-          blogTitle: 'Blog',
-          blogDescription: 'Thoughts and updates.',
+          path: 'blog'
           routeBasePath: 'blog',
-          blogSidebarTitle: 'Timeline',
+          showReadingTime: true,
+          // blogTitle: 'Blog',
+          // blogDescription: 'Thoughts and updates.',
+          // blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
           onUntruncatedBlogPosts: 'ignore',
         },
