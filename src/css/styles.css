@@ -150,7 +150,9 @@
    Theme
 ======================================== */
 
-.page-index .theme-doc-markdown {
+.page-index .theme-doc-markdown,
+.page-index .theme-edit-this-page,
+.page-index .theme-last-updated {
   display: none;
 }
 
@@ -161,10 +163,6 @@
 
 .theme-doc-markdown p {
   text-align: justify;
-}
-
-.theme-doc-breadcrumbs {
-  padding-right: var(--ifm-spacing-horizontal);
 }
 
 .theme-edit-this-page {
