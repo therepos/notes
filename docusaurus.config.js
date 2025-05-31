@@ -68,9 +68,9 @@ export default {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'cisaSidebar',
+          sidebarId: 'certSidebar',
           position: 'left',
-          label: 'CISA',
+          label: 'Cert',
         },
         {
           type: 'search',
