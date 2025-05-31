@@ -5,8 +5,6 @@ title: ''
 hide_title: true
 hide_table_of_contents: true
 custom_edit_url: null
-pagination_next: null
-pagination_prev: null
 ---
 
 import { useEffect } from 'react';
@@ -21,7 +19,4 @@ export default function RedirectToBlog() {
     history.replace(blogUrl);
   }, [blogUrl]);
 
-  return (
-    <div className="redirect-cover"></div>
-  );
 }
