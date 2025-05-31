@@ -8,9 +8,10 @@ import UpdatesMarkdown from '@site/src/data/updates.md';
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      once: true,
-      offset: 100,      // trigger animation when 100px of element is in viewport
-      duration: 800,    // animation length in ms
+      once: false,
+      mirror: true,
+      offset: 100,
+      duration: 800,
       easing: 'ease-in-out'
     });
   }, []);
