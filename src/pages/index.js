@@ -16,6 +16,10 @@ export default function Home() {
             <h2>CISA</h2>
             <p>Study notes and materials for the CISA exam.</p>
           </Link>
+          <Link className="landing-card" to="/blog">
+            <h2>Blog</h2>
+            <p>Latest posts, updates, and articles.</p>
+          </Link>
         </div>
       </main>
     </Layout>
