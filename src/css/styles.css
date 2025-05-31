@@ -153,7 +153,9 @@
 .page-index .theme-doc-footer,
 .page-index .theme-doc-markdown,
 .page-index .theme-edit-this-page,
-.page-index .theme-last-updated {
+.page-index .theme-last-updated,
+.page-index .theme-doc-footer-edit-meta-row,
+.page-index .lastUpdated_JAkA {
   display: none !important;
 }
 
