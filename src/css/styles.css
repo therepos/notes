@@ -69,9 +69,10 @@
 .heroSection {
   background-color: #1a1a1a;
   color: white;
-  padding: 4rem 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   text-align: center;
-  min-height: 100vh; /* Add this */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -9,16 +9,17 @@ export default function Home() {
   useEffect(() => {
     AOS.init({
       once: true,
-      duration: 700,
-      easing: 'ease-out-cubic',
+      offset: 100,      // trigger animation when 100px of element is in viewport
+      duration: 800,    // animation length in ms
+      easing: 'ease-in-out'
     });
   }, []);
 
   return (
     <Layout>
       {/* First Segment (Dark Hero) */}
-      <section className="heroSection" data-aos="fade-down">
-        <div className="container">
+      <section className="heroSection">
+        <div className="container" data-aos="fade-down">
           <div className="cardRow">
             <Card title="Home" link="/Home" description="General resources, quick notes, and documentation." />
             <Card title="CISA" link="/Cisa" description="Study notes and materials for the CISA exam." />
@@ -31,7 +32,7 @@ export default function Home() {
       <div className="sectionDivider"></div>
 
       {/* Second Segment (Updates) */}
-      <section className="updateSection" data-aos="fade-up">
+      <section className="updateSection">
         <div className="container">
           <div className="updateCard" data-aos="zoom-in">
             <UpdatesMarkdown />
