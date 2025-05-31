@@ -154,6 +154,7 @@
 .page-index .theme-edit-this-page,
 .page-index .theme-last-updated {
   display: none;
+  color: transparent; 
 }
 
 .theme-doc-markdown {
