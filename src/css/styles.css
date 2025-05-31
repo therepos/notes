@@ -21,7 +21,7 @@
 }
 
 /* ========================================
-   Landing Page Overrides (match JSX)
+   Landing Page
 ======================================== */
 
 .landing-main {
@@ -72,6 +72,8 @@
   margin: 0;
   color: #555;
 }
+
+/* Sections */
 
 .heroSection {
   background-color: #1a1a1a;
@@ -168,13 +170,13 @@
   padding-left: var(--ifm-spacing-horizontal);
 }
 
-/* Footer: Stacks vertically */
+/* LastUpdated: Stacks vertically */
 .theme-doc-footer-edit-meta-row {
   display: flex;
   flex-direction: column;
 }
 
-/* Footer: Align left */
+/* LastUpdated: Align left */
 .theme-doc-footer-edit-meta-row > .col,
 .theme-doc-footer-edit-meta-row > .lastUpdated_JAkA {
   width: 100% !important;
@@ -195,7 +197,7 @@
   color: var(--ifm-color-secondary);
 }
 
-/* LastUpdated: Add material icon */
+/* LastUpdated: Material icon */
 .theme-last-updated::before {
   content: "schedule";
   font-family: 'Material Symbols Outlined';
@@ -357,7 +359,7 @@ a[aria-label^="Read more"] b {
    Blog Card
 ======================================== */
 
-/* Make blog list items look like cards */
+/* Card: Layout */
 article.margin-bottom--xl {
   background-color: #fff;
   border: 1px solid #e0e0e0;
@@ -368,15 +370,10 @@ article.margin-bottom--xl {
   margin-bottom: 1rem !important;
 }
 
-/* Add hover effect */
+/* Card: Hover */
 article.margin-bottom--xl:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
-}
-
-/* Optional: add spacing between title and meta */
-article.margin-bottom--xl h2 {
-  margin-bottom: 0.5rem;
 }
 
 /* ========================================
