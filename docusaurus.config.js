@@ -17,23 +17,23 @@ export default {
     [
       '@docusaurus/preset-classic',
       {
-        blog: {
-          path: './blog',
+        docs: {
+          path: 'docs',
           routeBasePath: '/',
+          sidebarPath: './sidebars.js',
+          showLastUpdateTime: true,
+          sidebarCollapsible: true,
+          editUrl: 'https://github.com/therepos/notes/edit/main/',
+        },
+        blog: {
+          path: 'blog',
+          routeBasePath: 'blog',
           showReadingTime: true,
           // blogTitle: 'Blog',
           // blogDescription: 'Thoughts and updates.',
           // blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
           onUntruncatedBlogPosts: 'ignore',
-        },
-        docs: {
-          path: 'docs',
-          routeBasePath: 'docs',
-          sidebarPath: './sidebars.js',
-          showLastUpdateTime: true,
-          sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/notes/edit/main/',
         },
         theme: {
           customCss: './src/css/styles.css',
