@@ -1,17 +1,8 @@
----
-id: index
-slug: /
-title: ''
-hide_title: true
-hide_table_of_contents: true
-custom_edit_url: null
----
-
 import { useEffect } from 'react';
 import { useHistory } from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-export default function RedirectToBlog() {
+export default function Redirect() {
   const history = useHistory();
   const blogUrl = useBaseUrl('/blog');
 
@@ -19,4 +10,5 @@ export default function RedirectToBlog() {
     history.replace(blogUrl);
   }, [blogUrl]);
 
+  return null; // Renders nothing, no flash
 }
