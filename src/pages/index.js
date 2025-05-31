@@ -5,7 +5,7 @@ export default function HomeRedirect() {
   const history = useHistory();
 
   useEffect(() => {
-    history.push('/blog');
+    history.push('/notes/blog');
   }, [history]);
 
   return null;
