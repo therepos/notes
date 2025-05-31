@@ -55,7 +55,11 @@ docker logs pdfai | less
 Print video format using ffmpeg docker.
 
 ```bash
-docker exec -it ffmpeg ffprobe -v error -show_format -show_streams -i "/config/file.mp4" > /mnt/sec/media/videos/file_info.txt
+docker exec -it ffmpeg \
+  ffprobe -v error \
+  -show_format -show_streams \
+  -i "/config/file.mp4" \
+  > /mnt/sec/media/videos/file_info.txt
 ```
 
 
