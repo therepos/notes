@@ -17,8 +17,8 @@ export default function Home() {
         <div className="container">
           <h1 data-aos="fade-down">Welcome to Notes</h1>
           <div className="cardRow">
-            <Card title="Home" link="/docs/Home" description="General resources, quick notes, and documentation." />
-            <Card title="CISA" link="/docs/Cisa" description="Study notes and materials for the CISA exam." />
+            <Card title="Home" link="/Home" description="General resources, quick notes, and documentation." />
+            <Card title="CISA" link="/Cisa" description="Study notes and materials for the CISA exam." />
             <Card title="Blog" link="/blog" description="Latest posts, updates, and articles." />
           </div>
         </div>
