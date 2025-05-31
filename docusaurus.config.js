@@ -29,7 +29,7 @@ export default {
         },
         docs: {
           path: 'docs',
-          routeBasePath: false,
+          routeBasePath: 'docs',
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
