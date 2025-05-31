@@ -4,11 +4,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Redirect() {
   const history = useHistory();
-  const blogUrl = useBaseUrl('/blog');
+  const target = useBaseUrl('/docs/Home/index.md');
 
   useEffect(() => {
-    history.replace(blogUrl);
-  }, [blogUrl]);
+    history.replace(target);
+  }, [target]);
 
-  return null; // Renders nothing, no flash
+  return null;
 }
