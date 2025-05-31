@@ -88,6 +88,12 @@ export default {
         },
       ],
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true, // optional
+      },
+    },
     prism: {
       theme: prismThemes.github,
     },
