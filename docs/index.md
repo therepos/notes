@@ -1,6 +1,12 @@
 ---
 id: index
-title: Redirect
+title: Redirecting...
 slug: /
-redirect: /blog
+hide_table_of_contents: true
 ---
+
+<script>
+  if (typeof window !== 'undefined') {
+    window.location.replace('/blog');
+  }
+</script>
