@@ -39,7 +39,7 @@
 <mark>Shrimp ball</mark> : 1–2 min. Floats, bouncy texture.  
 <mark>Spinach</mark> : 1 min. Wilted, stems softened.  
 <mark>Thinly sliced beef</mark> : 10–20s. Pale pink to light brown, juicy.  
-<mark>Thinly sliced bok choy / Napa cabbage</mark> : 2–4 min. Stems soft, leaves wilted.  
+<mark>Thinly sliced bok choy</mark> : 2–4 min. Stems soft, leaves wilted.  
 <mark>Thinly sliced lamb</mark> : 20–30s. Turns light brown, slight aroma.  
 <mark>Thinly sliced pork belly</mark> : 1–2 min. Opaque, fat slightly translucent.  
 <mark>Thinly sliced squid</mark> : 1–2 min. Opaque white, firm, bouncy.  
