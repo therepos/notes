@@ -12,7 +12,7 @@
 - Spirituality – Religion, manifestation courses, funeral services.
 
 ## Chats
-- Ease – Dumb stuff, environment, food.
+- Ease – Dumb stuff (memes), environment, food.
 - Dynamics – Astrology, romance, people, shows.
 - Vibes – Events, music, her life.
 - Stereotypes – Weather, sports, politics, girl stuff, work, money.  
