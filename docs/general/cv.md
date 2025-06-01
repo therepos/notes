@@ -1,5 +1,5 @@
 # CV 
-
+ 
 ## Skills
 -   Identify potential material non-compliance with the accounting standards and other laws . 
 -   Enquire with company directors on the accounting treatments of major transactions and balances .
