@@ -4,7 +4,7 @@ title: CPA
 sidebar_label: CPA
 ---
  
-# Resources
+# Standards
 
 - [FRS 001 \- Presentation of Financial Statements](https://drive.google.com/file/d/1jD5xDQFMCRFNIe3MMZNJfTlAwkBPLqGU/view?usp=drive_link) | [IG](https://drive.google.com/file/d/1W0wGKc-tBU9weKtzurZOyIyMWrfyGVZ8/view?usp=drive_link)
 - [FRS 002 \- Inventories](https://drive.google.com/file/d/14Pj7CARTYEWVBTeoXIlAnsgsQ-vgd5Aa/view?usp=drive_link)

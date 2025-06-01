@@ -3,7 +3,7 @@ id: index
 title: CFA
 sidebar_label: CFA
 ---
-
+ 
 # Resources
 
 - [CFA Study Program](https://study.cfainstitute.org/app/cfa-institute-program-level-i-for-august-2024#read/study_task/2567673/learning-outcomes-96) 
