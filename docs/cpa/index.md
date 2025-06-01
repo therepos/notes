@@ -48,5 +48,7 @@ sidebar_label: CPA
 - [FRS 116 \- Leases](https://drive.google.com/file/d/1T4w4BJv9Yll4CqXcbxS8WGwYz6XB5i-G/view?usp=drive_link) | [IE](https://drive.google.com/file/d/1lhHl4OIOO_m9OSzhTdPbc2JaLg0kLDDd/view?usp=drive_link)
 - [FRS 117 \- Insurance Contracts](https://drive.google.com/file/d/165X0xsnifJdykDhMngJCNPN3OAtUNGH7/view?usp=drive_link) | [IE](https://drive.google.com/file/d/1pn53wDUwkqTxxVe7W7AJITAQeH7hxJ7V/view?usp=drive_link)
 
+# Resources
 
+- [ACRA](https://www.acra.gov.sg/accountancy/accounting-standards/pronouncements/financial-reporting-standards/archives/effective-for-annual-reporting-period-beginning-on-1-january-2024)
 
