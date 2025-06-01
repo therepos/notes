@@ -4,13 +4,12 @@ const currentYear = new Date().getFullYear();
 
 export default {
   title: 'Notes',
-  tagline: 'Quick Notes',
+  tagline: 'Hacks',
   url: 'https://therepos.github.io',
   baseUrl: '/notes/',
   organizationName: 'therepos',
   projectName: 'notes',
   deploymentBranch: 'gh-pages',
-  favicon: 'img/favicon.ico',
   trailingSlash: false,
 
   presets: [
@@ -62,15 +61,9 @@ export default {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'homeSidebar',
+          sidebarId: 'docSidebar',
           position: 'left',
-          label: 'Home',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'certSidebar',
-          position: 'left',
-          label: 'Cert',
+          label: 'Docs',
         },
         {
           type: 'search',

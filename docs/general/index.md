@@ -1,5 +1,5 @@
 ---
 id: index
 title: Home
-sidebar_label: About
+sidebar_label: General
 ---
