@@ -3,7 +3,7 @@ id: index
 title: CPA
 sidebar_label: CPA
 ---
-
+ 
 # Resources
 
 - [FRS 001 \- Presentation of Financial Statements](https://drive.google.com/file/d/1jD5xDQFMCRFNIe3MMZNJfTlAwkBPLqGU/view?usp=drive_link) | [IG](https://drive.google.com/file/d/1W0wGKc-tBU9weKtzurZOyIyMWrfyGVZ8/view?usp=drive_link)
