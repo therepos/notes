@@ -38,15 +38,29 @@ html[data-theme='dark'] .breadcrumbs__link {
   font-size: 14px;
 }
 
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+.footer-left {
+  color: #ebedf0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 .footer-icons {
-  margin-top: 8px;
+  display: flex;
+  gap: 12px;
 }
 
 .footer-icons .icon {
   display: inline-block;
   width: 24px;
   height: 24px;
-  margin: 0 6px;
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.7;
