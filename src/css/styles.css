@@ -34,7 +34,7 @@
 
 @media (prefers-color-scheme: dark) {
   .header-github-link {
-    background-image: url('/img/icon-github-dark.png');
+    background-image: url('/img/icon-github-dark.png') !important;
   }
 }
 
