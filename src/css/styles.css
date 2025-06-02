@@ -25,7 +25,7 @@
 }
 
 html[data-theme='dark'] a,
-html[data-theme='dark'] .menu__link,
+html[data-theme='dark'] .menu__link:hover,
 html[data-theme='dark'] .breadcrumbs__link {
   color: #79b6f2 !important;
 }
