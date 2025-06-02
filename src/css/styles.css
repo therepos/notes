@@ -324,23 +324,24 @@ html.blog-wrapper .container {
   padding-right: var(--ifm-spacing-horizontal) !important;
 }
 
+/* Component: Read More */
 .blog-wrapper .col.text--right {
   text-align: left !important;
 }
 
-/* Component: Read More */
-.col text--right col--3 {
-  text-align: left !important;
+/* Unbold "Read more" */
+a[aria-label^="Read more"] b {
+  font-weight: normal;
 }
+
+/* Component: Read More */
+/* .col text--right col--3 {
+  text-align: left !important;
+} */
 
 /* Component: Tags */
 .col--9 > b {
   display: none;
-}
-
-/* Remove bold from "Read more" */
-a[aria-label^="Read more"] b {
-  font-weight: normal;
 }
 
 /* ========================================
