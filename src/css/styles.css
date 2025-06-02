@@ -289,10 +289,6 @@ code, pre {
   word-break: break-word;
 }
 
-/* ========================================
-   Custom Text
-======================================== */
-
 mark {
   background-color: transparent; 
   color: #79b6f2;
