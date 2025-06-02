@@ -218,7 +218,7 @@ h2.title_f1Hy a {
   font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  color: #3578e5;
+  color: #79b6f2;
   text-decoration: none;
 }
 
@@ -283,7 +283,7 @@ article.margin-bottom--xl:hover {
 
 mark {
   background-color: transparent; 
-  color: #3578e5;
+  color: #79b6f2;
   font-size: inherit;
   font-weight: normal;
   display: inline;
