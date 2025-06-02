@@ -324,6 +324,10 @@ html.blog-wrapper .container {
   padding-right: var(--ifm-spacing-horizontal) !important;
 }
 
+.blog-wrapper .col.text--right {
+  text-align: left !important;
+}
+
 /* Component: Read More */
 .col text--right col--3 {
   text-align: left !important;
