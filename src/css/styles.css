@@ -20,6 +20,14 @@
   font-size: 14px;
 }
 
+:root {
+  --ifm-link-color: #79b6f2;
+}
+
+html[data-theme='dark'] {
+  --ifm-link-color: #79b6f2;
+}
+
 /* ========================================
    Navbar
 ======================================== */
