@@ -366,15 +366,15 @@ article.margin-bottom--xl {
   border-radius: 0;
   padding: 0;
   box-shadow: none;
-  margin-bottom: 2rem !important;
-  border-bottom: 1px solid var(--ifm-toc-border-color); /* adds divider */
+  padding-bottom: 1rem; /* space between content and border */
+  margin-bottom: 2rem !important; /* space below border */
+  border-bottom: 1px solid var(--ifm-toc-border-color);
 }
 
 article.margin-bottom--xl:hover {
   box-shadow: none;
   transform: none;
 }
-
 
 /* ========================================
    Custom Text
