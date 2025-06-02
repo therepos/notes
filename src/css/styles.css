@@ -24,16 +24,17 @@
    Navbar
 ======================================== */
 
-.header-github-link {
-  background: url('/img/icon-github.png') no-repeat center;
+.header-github-link::before {
+  content: "";
+  display: inline-block;
+  background: url('/img/icon-github-light.png') no-repeat center;
   background-size: 20px 20px;
   width: 24px;
   height: 24px;
-  display: inline-block;
 }
 
 @media (prefers-color-scheme: dark) {
-  .header-github-link {
+  .header-github-link::before {
     background-image: url('/img/icon-github-dark.png') !important;
   }
 }
