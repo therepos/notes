@@ -2,22 +2,12 @@
    Layout: Docs
 ======================================== */
 
-.pagination-nav {
-  display: none;
-}
-
 .container {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
   padding-left: var(--ifm-spacing-horizontal);
   padding-right: var(--ifm-spacing-horizontal);
-}
-
-.footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 14px;
 }
 
 :root {
@@ -29,9 +19,50 @@ html[data-theme='dark'] .menu__link:hover,
 html[data-theme='dark'] .menu__link--active,
 html[data-theme='dark'] .navbar__link:hover,
 html[data-theme='dark'] .navbar__link--active, 
-html[data-theme='dark'] table-of-contents__link--active,
+html[data-theme='dark'] .table-of-contents__link--active,
 html[data-theme='dark'] .breadcrumbs__link {
   color: #79b6f2 !important;
+}
+
+/* ========================================
+   Layout: Footer
+======================================== */
+
+.pagination-nav {
+  display: none;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-icons {
+  margin-top: 8px;
+}
+
+.footer-icons .icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.footer-icons .icon:hover {
+  opacity: 1;
+}
+
+.icon-github {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTgiIGhlaWdodD0iOTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00OC44NTQgMEMyMS44MzkgMCAwIDIyIDAgNDkuMjE3YzAgMjEuNzU2IDEzLjk5MyA0MC4xNzIgMzMuNDA1IDQ2LjY5IDIuNDI3LjQ5IDMuMzE2LTEuMDU5IDMuMzE2LTIuMzYyIDAtMS4xNDEtLjA4LTUuMDUyLS4wOC05LjEyNy0xMy41OSAyLjkzNC0xNi40Mi01Ljg2Ny0xNi40Mi01Ljg2Ny0yLjE4NC01LjcwNC01LjQyLTcuMTctNS40Mi03LjE3LTQuNDQ4LTMuMDE1LjMyNC0zLjAxNS4zMjQtMy4wMTUgNC45MzQuMzI2IDcuNTIzIDUuMDUyIDcuNTIzIDUuMDUyIDQuMzY3IDcuNDk2IDExLjQwNCA1LjM3OCAxNC4yMzUgNC4wNzQuNDA0LTMuMTc4IDEuNjk5LTUuMzc4IDMuMDc0LTYuNi0xMC44MzktMS4xNDEtMjIuMjQzLTUuMzc4LTIyLjI0My0yNC4yODMgMC01LjM3OCAxLjk0LTkuNzc4IDUuMDE0LTEzLjItLjQ4NS0xLjIyMi0yLjE4NC02LjI3NS40ODYtMTMuMDM4IDAgMCA0LjEyNS0xLjMwNCAxMy40MjYgNS4wNTJhNDYuOTcgNDYuOTcgMCAwIDEgMTIuMjE0LTEuNjNjNC4xMjUgMCA4LjMzLjU3MSAxMi4yMTMgMS42MyA5LjMwMi02LjM1NiAxMy40MjctNS4wNTIgMTMuNDI3LTUuMDUyIDIuNjcgNi43NjMuOTcgMTEuODE2LjQ4NSAxMy4wMzggMy4xNTUgMy40MjIgNS4wMTUgNy44MjIgNS4wMTUgMTMuMiAwIDE4LjkwNS0xMS40MDQgMjMuMDYtMjIuMzI0IDI0LjI4MyAxLjc4IDEuNTQ4IDMuMzE2IDQuNDgxIDMuMzE2IDkuMTI2IDAgNi42LS4wOCAxMS44OTctLjA4IDEzLjUyNiAwIDEuMzA0Ljg5IDIuODUzIDMuMzE2IDIuMzY0IDE5LjQxMi02LjUyIDMzLjQwNS0yNC45MzUgMzMuNDA1LTQ2LjY5MUM5Ny43MDcgMjIgNzUuNzg4IDAgNDguODU0IDB6IiBmaWxsPSIjZmZmIi8+PC9zdmc+");
+}
+
+.icon-docker {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNy4yIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjUgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZD0iTTM0OS45IDIzNi4zaC02Ni4xdi01OS40aDY2LjF2NTkuNHptMC0yMDQuM2gtNjYuMXY2MC43aDY2LjFWMzJ6bTc4LjIgMTQ0LjhIMzYydjU5LjRoNjYuMXYtNTkuNHptLTE1Ni4zLTcyLjFoLTY2LjF2NjAuMWg2Ni4xdi02MC4xem03OC4xIDBoLTY2LjF2NjAuMWg2Ni4xdi02MC4xem0yNzYuOCAxMDBjLTE0LjQtOS43LTQ3LjYtMTMuMi03My4xLTguNC0zLjMtMjQtMTYuNy00NC45LTQxLjEtNjMuN2wtMTQtOS4zLTkuMyAxNGMtMTguNCAyNy44LTIzLjQgNzMuNi0zLjcgMTAzLjgtOC43IDQuNy0yNS44IDExLjEtNDguNCAxMC43SDIuNGMtOC43IDUwLjggNS44IDExNi44IDQ0IDE2Mi4xIDM3LjEgNDMuOSA5Mi43IDY2LjIgMTY1LjQgNjYuMiAxNTcuNCAwIDI3My45LTcyLjUgMzI4LjQtMjA0LjIgMjEuNCAuNCA2Ny42IC4xIDkxLjMtNDUuMiAxLjUtMi41IDYuNi0xMy4yIDguNS0xNy4xbC0xMy4zLTguOXptLTUxMS4xLTI3LjloLTY2djU5LjRoNjYuMXYtNTkuNHptNzguMSAwaC02Ni4xdjU5LjRoNjYuMXYtNTkuNHptNzguMSAwaC02Ni4xdjU5LjRoNjYuMXYtNTkuNHptLTc4LjEtNzIuMWgtNjYuMXY2MC4xaDY2LjF2LTYwLjF6Ii8+PC9zdmc+");
 }
 
 /* ========================================

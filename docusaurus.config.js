@@ -91,10 +91,22 @@ export default {
     prism: {
       theme: prismThemes.github,
     },
+    // footer: {
+    //   style: 'dark',
+    //   links: [],
+    //   copyright: `<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos.<br/>Made with Docusaurus.`,
+    // },
     footer: {
       style: 'dark',
       links: [],
-      copyright: `<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos.<br/>Made with Docusaurus.`,
+      copyright: `
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos.<br/>
+        Made with Docusaurus.
+        <div class="footer-icons">
+          <a href="https://github.com" class="icon icon-github" target="_blank" aria-label="GitHub"></a>
+          <a href="https://hub.docker.com" class="icon icon-docker" target="_blank" aria-label="Docker"></a>
+        </div>
+      `,
     },
   },
 
