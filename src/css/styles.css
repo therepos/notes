@@ -1,3 +1,5 @@
+@import './blog.css';
+
 /* ========================================
    Layout: Docs
 ======================================== */
@@ -132,6 +134,18 @@ html[data-theme='dark'] .header-github-link::before {
   font-weight: 500;
   white-space: normal !important;
   word-break: break-word;
+}
+
+/* ========================================
+   Table of Contents
+======================================== */
+
+.table-of-contents li,
+.table-of-contents a {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 /* ========================================
@@ -273,91 +287,6 @@ body,
 code, pre {
   white-space: pre-wrap;
   word-break: break-word;
-}
-
-/* ========================================
-   Table of Contents
-======================================== */
-
-.table-of-contents li,
-.table-of-contents a {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  line-height: 21px;
-  font-weight: 400;
-}
-
-/* ========================================
-   Blog Pages
-======================================== */
-
-h1.title_f1Hy {
-  font-family: 'Inter', sans-serif !important;
-  font-weight: 600;
-}
-
-h2.title_f1Hy {
-  font-family: 'Inter', sans-serif !important;
-  font-weight: 600;
-}
-
-h2.title_f1Hy a {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-h3.title_f1Hy {
-  font-family: 'Inter', sans-serif !important;
-  font-weight: 600;
-}
-
-[class^="yearGroupHeading"] {
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-/* Component: Container */
-html.blog-wrapper .container {
-  max-width: var(--ifm-container-width-xl);
-  padding-left: var(--ifm-spacing-horizontal) !important;
-  padding-right: var(--ifm-spacing-horizontal) !important;
-}
-
-/* Component: Read More */
-.blog-wrapper .col.text--right {
-  text-align: left !important;
-}
-
-/* Unbold "Read more" */
-a[aria-label^="Read more"] b {
-  font-weight: normal;
-}
-
-/* Component: Tags */
-.col--9 > b {
-  display: none;
-}
-
-/* ========================================
-   Blog Post
-======================================== */
-
-article.margin-bottom--xl {
-  background: none;
-  border: none;
-  border-radius: 0;
-  padding: 0;
-  box-shadow: none;
-  padding-bottom: 3rem; /* space between content and border */
-  margin-bottom: 2rem !important; /* space below border */
-  border-bottom: 1px solid var(--ifm-toc-border-color);
-}
-
-article.margin-bottom--xl:hover {
-  box-shadow: none;
-  transform: none;
 }
 
 /* ========================================
