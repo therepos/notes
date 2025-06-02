@@ -21,6 +21,18 @@
 }
 
 /* ========================================
+   Navbar
+======================================== */
+
+.header-github-link {
+  background: url('/img/icon-github.png') no-repeat center;
+  background-size: 20px 20px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+/* ========================================
    Sidebar
 ======================================== */
 
@@ -232,7 +244,7 @@ html.blog-wrapper .container {
   display: none;
 }
 
-/* 2. Remove bold from "Read more" */
+/* Remove bold from "Read more" */
 a[aria-label^="Read more"] b {
   font-weight: normal;
 }
