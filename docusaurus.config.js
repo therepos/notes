@@ -85,7 +85,7 @@ export default {
     docs: {
       sidebar: {
         hideable: true,
-        autoCollapseCategories: true, // optional
+        autoCollapseCategories: true,
       },
     },
     prism: {
