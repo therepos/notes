@@ -366,7 +366,7 @@ article.margin-bottom--xl {
   border-radius: 0;
   padding: 0;
   box-shadow: none;
-  padding-bottom: 1rem; /* space between content and border */
+  padding-bottom: 2rem; /* space between content and border */
   margin-bottom: 2rem !important; /* space below border */
   border-bottom: 1px solid var(--ifm-toc-border-color);
 }
