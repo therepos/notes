@@ -12,16 +12,16 @@
 - Whats something that light you up lately?
 
 ## Procurement
-### Risk: PO splitting.
+### Risk: PO splitting
 - Indicator: Multiple smaller POs issued just below approval thresholds within a close timeframe. 
 - Approach: Analyzed PO data by vendor, amount, date, and item. Flagged multiple small POs just below approval limits. Investigate outliers for intent.
 
-### Risk: Bid rigging.
+### Risk: Bid rigging
 - Indicator: Same vendors winning, identical bids, clustered submissions. Repeated winning by a few vendors, identical bid amounts, or bids submitted in tight timing clusters. 
 - Approach: Using vendor and bid history. Reviewed bid/tender data over time. Detected red flags of possible collusion.
 
 ## Sales
-### Risk: Misuse of manual discounts.
+### Risk: Misuse of manual discounts
 - Indicator: Unusually high discounts or frequency.
 - Approach: Analyzed frequency and size of manual discounts. Flagged discounts during peak times or on standard-price items. Compared staff patterns to spot outliers.
 
