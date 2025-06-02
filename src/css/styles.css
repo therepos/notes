@@ -334,11 +334,6 @@ a[aria-label^="Read more"] b {
   font-weight: normal;
 }
 
-/* Component: Read More */
-/* .col text--right col--3 {
-  text-align: left !important;
-} */
-
 /* Component: Tags */
 .col--9 > b {
   display: none;
@@ -348,30 +343,13 @@ a[aria-label^="Read more"] b {
    Blog Card
 ======================================== */
 
-/* Card: Layout
-article.margin-bottom--xl {
-  background-color: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-  margin-bottom: 1rem !important;
-}
-
-/* Card: Hover */
-/* article.margin-bottom--xl:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-} */
-
 article.margin-bottom--xl {
   background: none;
   border: none;
   border-radius: 0;
   padding: 0;
   box-shadow: none;
-  padding-bottom: 2rem; /* space between content and border */
+  padding-bottom: 3rem; /* space between content and border */
   margin-bottom: 2rem !important; /* space below border */
   border-bottom: 1px solid var(--ifm-toc-border-color);
 }
