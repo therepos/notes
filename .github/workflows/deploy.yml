@@ -43,8 +43,8 @@ jobs:
 
       - name: List pulled and copied files
         run: |
-          ls -l temp-docusaurus/src/css/
-          cp temp-docusaurus/src/css/theme.css src/css/theme.css
+          ls -l temp-docusaurus/
+          cp temp-docusaurus/theme.css src/css/theme.css
          
       - name: Build site
         run: npm run build
