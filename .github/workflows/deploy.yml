@@ -35,7 +35,8 @@ jobs:
           cd temp-docusaurus
           git sparse-checkout init --cone
           git sparse-checkout set src/css/theme.css
-          git checkout
+          git checkout main
+          ls -l src/css/
           cp src/css/theme.css ../src/css/theme.css
           cd ..
           rm -rf temp-docusaurus
