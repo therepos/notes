@@ -35,7 +35,11 @@ export default {
             return blogPosts.sort((a, b) => {
               const pa = !!(a.frontMatter && a.frontMatter.pinned);
               const pb = !!(b.frontMatter && b.frontMatter.pinned);
-              if (pa !== pb) return pa ? -1 : 1;
+
+              if (pa && !pb) return -1;
+              if (!pa && pb) return 1;
+
+              // If both are pinned or both are unpinned, sort by date descending
               return new Date(b.metadata.date) - new Date(a.metadata.date);
             });
           },
