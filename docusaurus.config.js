@@ -40,7 +40,7 @@ export default {
               const pb = !!b.frontMatter.pinned;
               if (pa !== pb) return pa ? -1 : 1;
               return new Date(b.metadata.date) - new Date(a.metadata.date);
-            })
+            }),
           },
           theme: {
             customCss: './src/css/styles.css',
