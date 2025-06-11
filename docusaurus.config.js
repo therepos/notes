@@ -33,8 +33,8 @@ export default {
           sortPosts: 'descending',
           processBlogPosts({ blogPosts }) {
             return blogPosts.sort((a, b) => {
-              const pa = !!a.frontMatter.pinned;
-              const pb = !!b.frontMatter.pinned;
+              const pa = !!(a.frontMatter && a.frontMatter.pinned);
+              const pb = !!(b.frontMatter && b.frontMatter.pinned);
               if (pa !== pb) return pa ? -1 : 1;
               return new Date(b.metadata.date) - new Date(a.metadata.date);
             });
