@@ -30,7 +30,6 @@ export default {
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           onUntruncatedBlogPosts: 'ignore',
-          sortPosts: 'descending',
         },
         theme: {
           customCss: './src/css/styles.css',
