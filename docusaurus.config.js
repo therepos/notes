@@ -33,11 +33,19 @@ export default {
           // blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
           onUntruncatedBlogPosts: 'ignore',
+          sortPosts: 'descending', // default sort
+          processBlogPosts({ blogPosts }) {
+            return blogPosts.sort((a, b) => {
+              const pa = !!a.frontMatter.pinned;
+              const pb = !!b.frontMatter.pinned;
+              if (pa !== pb) return pa ? -1 : 1;
+              return new Date(b.metadata.date) - new Date(a.metadata.date);
+            })
+          },
+          theme: {
+            customCss: './src/css/styles.css',
+          },
         },
-        theme: {
-          customCss: './src/css/styles.css',
-        },
-      },
     ],
   ],
 
