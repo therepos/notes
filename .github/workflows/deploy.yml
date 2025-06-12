@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: Sync and commit theme from template
-        uses: .github/workflows/synctheme.yml
+        uses: ./.github/workflows/synctheme.yml
 
       - name: Build site
         run: npm run build
