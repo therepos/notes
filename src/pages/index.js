@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Redirect() {
   const history = useHistory();
-  const target = useBaseUrl('/');  
+  const target = useBaseUrl('/blog');  
   // use /blog for redirect to blog
   // no slug default to lowercase folder name
   
