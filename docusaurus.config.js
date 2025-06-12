@@ -1,14 +1,17 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const currentYear = new Date().getFullYear();
+const org = process.env.ORG_NAME;
+const repo = process.env.PROJECT_NAME;
+const footer = require('./footer');
 
 export default {
-  title: 'Notes',
+  title: process.env.SITE_TITLE,
   tagline: 'Hacks',
-  url: 'https://therepos.github.io',
-  baseUrl: '/notes/',
-  organizationName: 'therepos',
-  projectName: 'notes',
+  url: process.env.SITE_URL,
+  baseUrl: process.env.BASE_URL,
+  organizationName: process.env.ORG_NAME,
+  projectName: process.env.PROJECT_NAME,
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -22,7 +25,7 @@ export default {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/notes/edit/main/',
+          editUrl: `https://github.com/${org}/${repo}/edit/main/`,
         },
         blog: {
           path: 'blog',
@@ -39,19 +42,19 @@ export default {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            from: '/',
-            to: '/blog',
-          },
-        ],
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-client-redirects',
+  //     {
+  //       redirects: [
+  //         {
+  //           from: '/',
+  //           to: '/blog',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // ],
 
   themeConfig: {
     navbar: {
@@ -68,7 +71,7 @@ export default {
           position: 'right',
         },
         {
-          href: 'https://github.com/therepos/notes',
+          href: `https://github.com/${org}/${repo}`,
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -89,22 +92,6 @@ export default {
     prism: {
       theme: prismThemes.github,
     },
-    footer: {
-      style: 'dark',
-      links: [],
-      copyright: `
-        <div class="footer-row">
-          <div class="footer-left">
-            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos.<br/>
-            Made with Docusaurus.
-          </div>
-          <div class="footer-icons">
-            <a href="https://github.com" class="icon icon-github" target="_blank" aria-label="GitHub"></a>
-            <a href="https://hub.docker.com" class="icon icon-docker" target="_blank" aria-label="Docker"></a>
-          </div>
-        </div>
-      `,
-    },
+    footer: footer,
   },
-
 };
