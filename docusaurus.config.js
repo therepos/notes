@@ -42,20 +42,6 @@ export default {
     ],
   ],
 
-  // plugins: [
-  //   [
-  //     '@docusaurus/plugin-client-redirects',
-  //     {
-  //       redirects: [
-  //         {
-  //           from: '/',
-  //           to: '/blog',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // ],
-
   themeConfig: {
     navbar: {
       title: 'Notes',
