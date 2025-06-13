@@ -1,3 +1,9 @@
+---
+id: index
+title: Social
+sidebar_label: Social
+---
+
 # Social
 
 ## Interests
