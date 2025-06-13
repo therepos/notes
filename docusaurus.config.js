@@ -47,12 +47,6 @@ export default {
       title: 'Notes',
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'docSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
-        {
           type: 'search',
           position: 'right',
         },
