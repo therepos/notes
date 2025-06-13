@@ -15,6 +15,10 @@ export default {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
+  plugins: [
+    '@docusaurus/plugin-client-redirects',
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
