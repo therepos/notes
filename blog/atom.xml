@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://therepos.github.io/notes/blog</id>
+    <title>therepos/notes Blog</title>
+    <updated>2025-05-29T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://therepos.github.io/notes/blog"/>
+    <subtitle>therepos/notes Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Roadmap]]></title>
+        <id>https://therepos.github.io/notes/blog/2025/05/29</id>
+        <link href="https://therepos.github.io/notes/blog/2025/05/29"/>
+        <updated>2025-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- [ ] mobileapp-soccermetrics]]></summary>
+        <content type="html"><![CDATA[<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->mobileapp-soccermetrics</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->addin-mobileapp</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->ml-github-food</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->webapp-lotto</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->webapp-dashboard</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->webapp-risks</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->selenium</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->excel-addin</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->gitsync</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->cicd-gitlab-repo-container</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->documentation-docusaurus</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->cicd-gitea-repo-pages</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->ppt-html5</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Events]]></title>
+        <id>https://therepos.github.io/notes/blog/2025/05/27</id>
+        <link href="https://therepos.github.io/notes/blog/2025/05/27"/>
+        <updated>2025-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- GLP.]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>GLP.</li>
+<li>ACRA.</li>
+<li>KKR INV.</li>
+<li>SHEIN.</li>
+<li>EY.</li>
+<li>Reliance.</li>
+<li>RT.</li>
+<li>SGX.</li>
+<li>EY FAAS.</li>
+<li>YMW.</li>
+</ul>
+<hr>
+<p>The KKR incident:</p>
+<ul>
+<li>The positive Rabbit year prediction.</li>
+<li>The illusion of the expert who has high accuracy.</li>
+<li>The hope of saving her son.</li>
+<li>The illusion of rewards without effort.</li>
+<li>The pursuit of positive feelings.</li>
+</ul>]]></content>
+    </entry>
+</feed>
