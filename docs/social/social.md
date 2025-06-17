@@ -24,3 +24,12 @@ sidebar_label: Social
 - Stereotypes – Weather, sports, politics, girl stuff, work, money.  
 - Abstracts – Philosophy, future, ambitions, past.
 
+## Pleasures
+- Exercise – boosts endorphins and dopamine
+- Social connection – increases oxytocin
+- Listening to music – activates reward centers
+- Meditation – reduces stress hormones, boosts serotonin
+- Laughter – releases endorphins
+- Sunlight – increases serotonin and vitamin D
+- Sex – boosts multiple feel-good chemicals
+- Accomplishing goals – triggers dopamine release
