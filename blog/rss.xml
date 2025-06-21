@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>therepos/notes Blog</title>
+        <link>https://therepos.github.io/notes/blog</link>
+        <description>therepos/notes Blog</description>
+        <lastBuildDate>Thu, 29 May 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Roadmap]]></title>
+            <link>https://therepos.github.io/notes/blog/2025/05/29</link>
+            <guid>https://therepos.github.io/notes/blog/2025/05/29</guid>
+            <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- [ ] mobileapp-soccermetrics]]></description>
+            <content:encoded><![CDATA[<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->mobileapp-soccermetrics</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->addin-mobileapp</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->ml-github-food</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->webapp-lotto</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->webapp-dashboard</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->webapp-risks</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->selenium</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->excel-addin</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->gitsync</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->cicd-gitlab-repo-container</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->documentation-docusaurus</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->cicd-gitea-repo-pages</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->ppt-html5</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Events]]></title>
+            <link>https://therepos.github.io/notes/blog/2025/05/27</link>
+            <guid>https://therepos.github.io/notes/blog/2025/05/27</guid>
+            <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- GLP.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>GLP.</li>
+<li>ACRA.</li>
+<li>KKR INV.</li>
+<li>SHEIN.</li>
+<li>EY.</li>
+<li>Reliance.</li>
+<li>RT.</li>
+<li>SGX.</li>
+<li>EY FAAS.</li>
+<li>YMW.</li>
+</ul>
+<hr>
+<p>The KKR incident:</p>
+<ul>
+<li>The positive Rabbit year prediction.</li>
+<li>The illusion of the expert who has high accuracy.</li>
+<li>The hope of saving her son.</li>
+<li>The illusion of rewards without effort.</li>
+<li>The pursuit of positive feelings.</li>
+</ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
